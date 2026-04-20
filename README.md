@@ -21,6 +21,7 @@ Python library for synthetic data generation, developed during my time as a rese
 PyPI · GitHub
 
 View repository: https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator.git
+
 ---
 
 **Portfolio projects**
