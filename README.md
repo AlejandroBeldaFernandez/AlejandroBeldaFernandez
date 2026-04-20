@@ -28,13 +28,19 @@ View repository: https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator.
 ---
 
 **01 — Madrid Traffic Accident Injury Prediction**
+
 Type: Classification
+
 Stack: Python · pandas · scikit-learn · CatBoost · Optuna · SHAP
+
 Dataset: Open data from the Madrid City Council (2019–2023)
 
 Predicts whether a traffic accident in Madrid will result in at least one injured person, using information available at the time the accident is reported. The project covers person-to-accident aggregation, feature engineering, three models with Optuna tuning, SHAP explainability, and actionable recommendations for emergency resource allocation.
 
 Best model (CatBoost): ROC AUC 0.873 · Balanced Accuracy 0.801 · Macro F1 0.73
+
+What does this mean in practice?
+Out of every 10 accidents the model predicts as involving injuries, roughly 8 to 9 are correct. It also correctly identifies most accidents where no one is hurt, which avoids unnecessary resource dispatch. The remaining errors are mostly false alarms rather than missed injuries, which in an emergency context is the safer type of mistake.
 
 View repository: https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents
 
