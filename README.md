@@ -20,6 +20,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 Python library for synthetic data generation, developed during my time as a researcher. Published on PyPI and maintained independently. Designed to generate realistic tabular datasets for development, testing, and prototyping.
 PyPI · GitHub
 
+View repository: https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator.git
 ---
 
 **Portfolio projects**
