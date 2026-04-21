@@ -47,7 +47,8 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 Python library for synthetic data generation, developed during my time as a researcher. Published on PyPI and maintained independently. Designed to generate realistic tabular datasets for development, testing, and prototyping.
 PyPI · GitHub
 
-View repository: https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator.git
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]
+(https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator.git)
 
 ---
 
@@ -69,7 +70,7 @@ Best model (CatBoost): ROC AUC 0.873 · Balanced Accuracy 0.801 · Macro F1 0.73
 What does this mean in practice?
 Out of every 10 accidents the model predicts as involving injuries, roughly 8 to 9 are correct. It also correctly identifies most accidents where no one is hurt, which avoids unnecessary resource dispatch. The remaining errors are mostly false alarms rather than missed injuries, which in an emergency context is the safer type of mistake.
 
-View repository: https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents)
 
 ---
 *More projects coming soon.*
