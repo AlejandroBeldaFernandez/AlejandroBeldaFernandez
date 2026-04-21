@@ -1,4 +1,4 @@
-**Alejandro Belda Fernández — Data Science Portfolio**
+**Alejandro Belda Fernández — Portfolio**
 
 > [Portfolio en Español](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README_ES.md)
 ---
@@ -9,8 +9,6 @@ Computer Science graduate from the University of Murcia with a Master's degree i
 
 I enjoy the full pipeline: understanding the business problem, cleaning and transforming messy data, exploring it with the right questions, building models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
 
-**Looking for:** Junior Data Scientist or Data Analyst roles in Spain or remote.
-
 **Languages:** Spanish (native) · English (B2)
 
 **Contact:** alejandrobeldafernandez@gmail.com
@@ -19,7 +17,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 ### Skills
 
-**Data Science & Machine Learning**
+**Machine Learning**
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
