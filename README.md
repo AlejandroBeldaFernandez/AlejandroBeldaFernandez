@@ -1,5 +1,6 @@
 **Alejandro Belda Fernández — Data Science Portfolio**
 
+> [Portfolio en Español](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README_ES.md)
 ---
 
 ### About me
