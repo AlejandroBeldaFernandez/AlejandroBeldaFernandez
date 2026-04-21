@@ -1,4 +1,4 @@
-**Alejandro Belda Fernandez — Data Science Portfolio**
+**Alejandro Belda Fernández — Data Science Portfolio**
 
 ---
 
