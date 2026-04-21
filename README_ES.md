@@ -52,7 +52,6 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 Libreria Python para generacion de datos sinteticos, desarrollada durante mi etapa como investigador. Publicada en PyPI y mantenida de forma independiente. Disenada para generar datasets tabulares realistas para desarrollo, pruebas y prototipado.
 
-[![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)](https://pypi.org/project/calm-data-generator/)
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
 
 ---
