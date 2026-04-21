@@ -11,6 +11,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 **Looking for:** Junior Data Scientist or Data Analyst roles in Spain or remote across Europe.
 **Languages:** Spanish (native) · English (B2)
 **Contact:** alejandrobeldafernandez@gmail.com
+
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
 
 ### 🛠️Skills
