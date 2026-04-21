@@ -1,4 +1,4 @@
-# Alejandro Belda Fernandez — Portfolio de Data Science
+# Alejandro Belda Fernandez — Portfolio
 
 > [View this portfolio in English](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README.md)
 
@@ -10,8 +10,6 @@ Graduado en Informatica por la Universidad de Murcia con Master en Inteligencia 
 
 Disfruto del pipeline completo: entender el problema de negocio, limpiar y transformar datos desordenados, explorarlos con las preguntas correctas, construir modelos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluacion honesta, las decisiones documentadas y las conclusiones que los perfiles no tecnicos puedan llevar a la practica.
 
-**Busco:** Puesto junior de Data Scientist o Data Analyst en Murcia o remoto.
-
 **Idiomas:** Español (nativo) · Ingles (B2)
 
 **Contacto:** alejandrobeldafernandez@gmail.com
@@ -22,7 +20,7 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 ## Habilidades
 
-**Data Science y Machine Learning**
+**Machine Learning**
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
