@@ -3,7 +3,7 @@
 > [Portfolio en Español](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README_ES.md)
 ---
 
-### About me
+## About me
 
 Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI) handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now transitioning into industry roles in data science and data analysis.
 
@@ -15,9 +15,9 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
 
-### Skills
+## Skills
 
-**Machine Learning**
+### Machine Learning
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -25,7 +25,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 ![Seaborn](https://img.shields.io/badge/Seaborn-%23113254.svg?style=for-the-badge&logo=Seaborn&logoColor=white)
 
 
-**MLOps & Deployment**
+### MLOps & Deployment
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -33,15 +33,15 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Prefect](https://img.shields.io/badge/Prefect-ffffff?style=for-the-badge&logo=prefect&logoColor=20144d)
 
-**Databases & Tools**
+### Databases & Tools
 ![SQL](https://img.shields.io/badge/sql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
 
 ---
 
-### Open source
+## Open source
 
-**calm-data-generator**
+### calm-data-generator
 Python library for synthetic data generation, developed during my time as a researcher. Published on PyPI and maintained independently. Designed to generate realistic tabular datasets for development, testing, and prototyping.
 PyPI · GitHub
 
@@ -49,10 +49,10 @@ PyPI · GitHub
 
 ---
 
-### Portfolio projects
+## Portfolio projects
 ---
 
-**01 — Madrid Traffic Accident Injury Prediction**
+### 01 — Madrid Traffic Accident Injury Prediction
 
 Type: Classification
 
