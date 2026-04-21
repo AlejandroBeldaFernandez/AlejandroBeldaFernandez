@@ -8,8 +8,10 @@ Computer Science graduate from the University of Murcia with a Master's degree i
 
 I enjoy the full pipeline: understanding the business problem, cleaning and transforming messy data, exploring it with the right questions, building models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
 
-**Looking for:** Junior Data Scientist or Data Analyst roles in Spain or remote across Europe.
+**Looking for:** Junior Data Scientist or Data Analyst roles in Spain or remote.
+
 **Languages:** Spanish (native) · English (B2)
+
 **Contact:** alejandrobeldafernandez@gmail.com
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
