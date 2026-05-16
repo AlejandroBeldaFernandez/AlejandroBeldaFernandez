@@ -79,6 +79,21 @@ De cada 10 accidentes que el modelo predice como con heridos, aproximadamente 8 
 
 ---
 
+Tipo: Regresión
+
+Stack: Python · pandas · scikit-learn · XGBoost · Optuna · SHAP
+
+Dataset: Kaggle — Anuncios de propiedades residenciales en Madrid
+
+Predice el precio de venta de propiedades residenciales en Madrid a partir de sus características físicas y ubicación. El proyecto incluye limpieza de datos, ingeniería de características, TargetEncoder para la codificación del distrito, tres modelos con tuning mediante Optuna, intervalos de confianza via bootstrap y validación cruzada, y explicabilidad con SHAP.
+
+Mejor modelo (XGBoost): RMSE 69.568 € · R² 0.897 · MAPE 15.27%
+
+¿Qué significa esto en la práctica?
+De media, el precio predicho por el modelo se encuentra dentro del 15% del precio real. Para una propiedad de 200.000 €, el error esperado es de aproximadamente 30.000 €. La superficie construida y el distrito son los factores dominantes — y se amplifican mutuamente: un piso grande en Chamberí vale desproporcionadamente más que uno igual de grande en Vallecas. El modelo es más fiable para propiedades estándar en distritos bien representados, y menos fiable para propiedades atípicas o de lujo en los extremos de la distribución.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
+---
 *Mas proyectos proximamente.*
 
 *Repositorios en progreso — publicacion progresiva a lo largo de 2026.*
