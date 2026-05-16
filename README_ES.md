@@ -60,7 +60,7 @@ Libreria Python para generacion de datos sinteticos, desarrollada durante mi eta
 
 ---
 
-### 01 — Madrid Traffic Accident Injury Prediction
+### 01 — Predicción heridos accidente de trafico en Madrid
 
 **Tipo:** Clasificacion
 
@@ -78,6 +78,7 @@ De cada 10 accidentes que el modelo predice como con heridos, aproximadamente 8 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents)
 
 ---
+### 02 — Predicción precio de la vivienda en Madrid
 
 Tipo: Regresión
 
