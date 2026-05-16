@@ -86,7 +86,7 @@ Best model (XGBoost): RMSE 69.568 € · R² 0.897 · MAPE 15.27%
 What does this mean in practice?
 On average, the model's predicted price is within 15% of the actual sale price. For a property worth 200.000 €, the expected error is roughly 30.000 €. Built area and district are the dominant drivers — and they amplify each other: a large flat in Chamberí is worth disproportionately more than an equally large flat in Vallecas. The model is most reliable for standard properties in established districts, and less reliable for atypical or luxury properties at the extremes of the distribution.
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]()
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
 ---
 
 *More projects coming soon.*
