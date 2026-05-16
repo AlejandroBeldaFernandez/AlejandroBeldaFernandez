@@ -72,6 +72,23 @@ Out of every 10 accidents the model predicts as involving injuries, roughly 8 to
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents)
 
 ---
+### 02 —  Madrid Real Estate Price Prediction
+Type: Regression
+
+Stack: Python · pandas · scikit-learn · XGBoost · Optuna · SHAP
+
+Dataset: Kaggle — Madrid residential property listings
+
+Predicts the sale price of residential properties in Madrid using physical characteristics and location. The project covers data cleaning, feature engineering, TargetEncoder for district encoding, three models with Optuna tuning, confidence intervals via bootstrap and cross-validation, and SHAP explainability.
+
+Best model (XGBoost): RMSE 69.568 € · R² 0.897 · MAPE 15.27%
+
+What does this mean in practice?
+On average, the model's predicted price is within 15% of the actual sale price. For a property worth 200.000 €, the expected error is roughly 30.000 €. Built area and district are the dominant drivers — and they amplify each other: a large flat in Chamberí is worth disproportionately more than an equally large flat in Vallecas. The model is most reliable for standard properties in established districts, and less reliable for atypical or luxury properties at the extremes of the distribution.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)]()
+---
+
 *More projects coming soon.*
 
 *Repositories in progress — publishing progressively throughout 2026.*
