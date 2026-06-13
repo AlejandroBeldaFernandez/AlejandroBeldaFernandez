@@ -89,6 +89,22 @@ On average, the model's predicted price is within 15% of the actual sale price. 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
 ---
 
+### 03 — Customer Personality Analysis
+Type: Unsupervised Clustering
+
+Stack: Python · pandas · scikit-learn · umap-learn
+
+Dataset: Kaggle — Customer Personality Analysis (2,240 customers, 29 features)
+
+Segments customers into 3 distinct profiles based on demographic, spending, and campaign response data. The project covers outlier detection with Isolation Forest, feature engineering, One-Hot Encoding, RobustScaler, PCA dimensionality reduction, K-Means with Elbow and Silhouette selection, UMAP visualisation, and actionable business recommendations per segment.
+
+Final model (K-Means K=3 + PCA): Silhouette Score 0.24 · 3 segments identified
+
+What does this mean in practice? Premium customers (high income, no children) spend €1,274 on average and respond to campaigns without needing discounts. Deal Seekers (medium income, ~1 child) buy 3.4x more when promotions are available — that is where discount budgets have the highest ROI. Window Shoppers (lowest income, most children) visit the web 6.4 times per month but spend only €80 — high intent, budget barrier. Applying the same campaign to all three simultaneously is the worst possible allocation of marketing spend.
+
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
+---
 *More projects coming soon.*
 
 *Repositories in progress — publishing progressively throughout 2026.*
