@@ -96,6 +96,23 @@ De media, el precio predicho por el modelo se encuentra dentro del 15% del preci
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
 ---
+
+### 03 — Clustering de perfiles de clientes
+Tipo: Clustering No Supervisado
+
+Stack: Python · pandas · scikit-learn · umap-learn
+
+Dataset: Kaggle — Customer Personality Analysis (2.240 clientes, 29 variables)
+
+Segmenta clientes en 3 perfiles diferenciados a partir de datos demograficos, de gasto y de respuesta a campanas. El proyecto incluye deteccion de outliers con Isolation Forest, feature engineering, One-Hot Encoding, RobustScaler, reduccion de dimensionalidad con PCA, K-Means con seleccion de K por codo y silueta, visualizacion con UMAP y recomendaciones de negocio accionables por segmento.
+
+Modelo final (K-Means K=3 + PCA): Silhouette Score 0.24 · 3 segmentos identificados
+
+Que significa esto en la practica? Los clientes Premium (ingresos altos, sin hijos) gastan €1.274 de media y responden a campanas sin necesidad de descuentos. Los Cazadores de Ofertas (ingresos medios, ~1 hijo) compran 3.4 veces mas cuando hay promociones disponibles — ahi es donde el presupuesto en descuentos tiene mayor ROI. Los Escaparatistas (ingresos mas bajos, mas hijos) visitan la web 6.4 veces al mes pero gastan solo €80 — alta intencion, barrera economica. Aplicar la misma campana a los tres grupos simultaneamente es la peor asignacion posible del presupuesto de marketing.
+
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
+---
 *Mas proyectos proximamente.*
 
 *Repositorios en progreso — publicacion progresiva a lo largo de 2026.*
