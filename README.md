@@ -94,7 +94,7 @@ Type: Unsupervised Clustering
 
 Stack: Python · pandas · scikit-learn · umap-learn
 
-Dataset: Kaggle — Customer Personality Analysis (2,240 customers, 29 features)
+Dataset: Kaggle — Customer Personality Analysis 
 
 Segments customers into 3 distinct profiles based on demographic, spending, and campaign response data. The project covers outlier detection with Isolation Forest, feature engineering, One-Hot Encoding, RobustScaler, PCA dimensionality reduction, K-Means with Elbow and Silhouette selection, UMAP visualisation, and actionable business recommendations per segment.
 
