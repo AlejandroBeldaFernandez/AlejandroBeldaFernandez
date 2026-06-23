@@ -113,6 +113,21 @@ Que significa esto en la practica? Los clientes Premium (ingresos altos, sin hij
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
 ---
+### 04 — MLOPS Prediccion de fuga de clientes
+
+Tipo: Pipeline MLOps · Clasificación Binaria
+
+Stack: Python · scikit-learn · Optuna · MLflow · Prefect · FastAPI · Evidently AI · PostgreSQL · Grafana · Docker · Terraform · Streamlit
+
+Dataset: Kaggle — IBM Telco Customer Churn
+
+Pipeline MLOps de extremo a extremo que cubre el ciclo de vida completo en produccion: validacion de datos, ingenieria de features, optimizacion de hiperparametros con Optuna (150 trials, validacion cruzada de 5 folds), seguimiento de experimentos con MLflow, orquestacion con Prefect, monitorizacion de drift con Evidently AI, reentrenamiento automatico, versionado de modelos con promocion a @champion, API REST con FastAPI y demo interactiva desplegada en HuggingFace Spaces.
+
+Modelo final (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 · Recall (churn) 0.76
+
+Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones cuesta entre 5 y 7 veces mas que retener a uno existente. El modelo identifica correctamente el 76% de los clientes que van a cancelar — antes de que lo hagan — dandole al equipo de retencion tiempo suficiente para actuar. Pero la infraestructura MLOps es el valor real del proyecto: el pipeline monitoriza los datos entrantes en busca de cambios en la distribucion y reentrena automaticamente cuando mas del 40% de las variables muestran drift. Un modelo nuevo solo reemplaza al actual si lo supera en ROC-AUC. El resultado es un sistema que se mantiene alineado con el comportamiento actual de los clientes sin ninguna intervencion manual.
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+---
 *Mas proyectos proximamente.*
 
 *Repositorios en progreso — publicacion progresiva a lo largo de 2026.*
