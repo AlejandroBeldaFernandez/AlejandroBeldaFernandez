@@ -105,6 +105,21 @@ What does this mean in practice? Premium customers (high income, no children) sp
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
 ---
+### 04 — MLOPS Telco Customer Churn
+Type: MLOps Pipeline · Binary Classification
+
+Stack: Python · scikit-learn · Optuna · MLflow · Prefect · FastAPI · Evidently AI · PostgreSQL · Grafana · Docker · Terraform · Streamlit
+
+Dataset: Kaggle — IBM Telco Customer Churn
+
+End-to-end MLOps pipeline covering the full production lifecycle: data validation, feature engineering, hyperparameter optimisation with Optuna (150 trials, 5-fold CV), experiment tracking with MLflow, orchestration with Prefect, drift monitoring with Evidently AI, automated retraining, model versioning with @champion promotion, REST API with FastAPI, and an interactive demo deployed on HuggingFace Spaces.
+
+Final model (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 · Recall (churn) 0.76
+
+What does this mean in practice? Acquiring a new telecom customer costs 5–7× more than retaining an existing one. The model correctly identifies 76% of customers who will cancel — before they do — giving the retention team enough time to act. But the MLOps infrastructure is the actual value here: the pipeline monitors incoming data for distribution shift and retrains automatically when more than 40% of features drift. A new model only replaces the current one if it outperforms it on ROC-AUC. The result is a self-maintaining system that stays aligned with current customer behaviour without any manual intervention.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+---
 *More projects coming soon.*
 
 *Repositories in progress — publishing progressively throughout 2026.*
