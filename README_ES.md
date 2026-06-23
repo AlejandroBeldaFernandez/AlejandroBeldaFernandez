@@ -126,6 +126,7 @@ Pipeline MLOps de extremo a extremo que cubre el ciclo de vida completo en produ
 Modelo final (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 · Recall (churn) 0.76
 
 Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones cuesta entre 5 y 7 veces mas que retener a uno existente. El modelo identifica correctamente el 76% de los clientes que van a cancelar — antes de que lo hagan — dandole al equipo de retencion tiempo suficiente para actuar. Pero la infraestructura MLOps es el valor real del proyecto: el pipeline monitoriza los datos entrantes en busca de cambios en la distribucion y reentrena automaticamente cuando mas del 40% de las variables muestran drift. Un modelo nuevo solo reemplaza al actual si lo supera en ROC-AUC. El resultado es un sistema que se mantiene alineado con el comportamiento actual de los clientes sin ninguna intervencion manual.
+
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
 ---
 *Mas proyectos proximamente.*
