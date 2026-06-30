@@ -32,7 +32,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 ![MLflow](https://img.shields.io/badge/mlflow-%23d9ead3.svg?style=for-the-badge&logo=mlflow&logoColor=blue)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Prefect](https://img.shields.io/badge/Prefect-ffffff?style=for-the-badge&logo=prefect&logoColor=20144d)
-
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ### Databases & Tools
 ![SQL](https://img.shields.io/badge/sql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
@@ -120,6 +120,25 @@ What does this mean in practice? Acquiring a new telecom customer costs 5–7× 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
 ---
+
+
+### Extra — Cloud: Serverless ML Inference on AWS
+
+Type: Cloud Deployment · Serverless Architecture
+
+Stack: AWS S3 · AWS Lambda · API Gateway · IAM · Python · scikit-learn
+
+Dataset: Iris (used as a minimal case study — the focus of this project is the cloud architecture, not the model)
+
+A small, self-contained project built to demonstrate practical AWS skills: a classification model served through a public HTTP endpoint, with no server to manage. The trained pipeline (StandardScaler + DecisionTreeClassifier) is stored in S3, loaded on demand by a Lambda function, and exposed via API Gateway.
 *More projects coming soon.*
 
+
+What does this mean in practice? This project is not about the model — Iris is deliberately simple so the architecture stays the focus. It demonstrates the full serverless deployment loop end-to-end: packaging dependencies for Lambda, configuring IAM permissions, handling cold starts, and exposing a model as a public API without provisioning any server. The README documents the real issues encountered and resolved along the way (missing dependencies, Lambda package size limits, read-only filesystem errors, cold-start timeouts), since debugging a deployment is as representative of the skill as the deployment itself.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/AWS-Iris-Prediction.git)
+
+---
+
+---
 *Repositories in progress — publishing progressively throughout 2026.*
