@@ -141,6 +141,21 @@ What does this mean in practice? This project is not about the model — Iris is
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/AWS-Iris-Prediction.git)
 
 ---
+### Extra — Cloud: Serverless ML Inference on Azure
+
+Type: Cloud Deployment · Serverless Architecture
+
+Stack: Azure Blob Storage · Azure Functions · Python · scikit-learn
+
+Dataset: Diabetes (scikit-learn, used as a minimal case study — the focus of this project is the cloud architecture, not the model)
+
+A small, self-contained project built to demonstrate practical Azure skills: a regression model served through a public HTTP endpoint, with no server to manage. The trained pipeline (StandardScaler + RandomForestRegressor) is stored in Blob Storage, loaded on demand by an Azure Function, and exposed via its native HTTP trigger — no separate API Gateway needed.
+
+What does this mean in practice? This project is not about the model — the diabetes dataset is deliberately simple so the architecture stays the focus. It demonstrates the full serverless deployment loop end-to-end: creating resources via Azure CLI (the portal was insufficient due to plan restrictions with the free subscription), registering resource providers, handling region restrictions, managing npm permissions for the Core Tools, and deploying a model as a public API without provisioning any server. The README documents the real issues encountered and resolved along the way, since debugging a deployment is as representative of the skill as the deployment itself.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Azure-Diabetes-Prediction.git)
+
+---
 
 ---
 *Repositories in progress — publishing progressively throughout 2026.*
