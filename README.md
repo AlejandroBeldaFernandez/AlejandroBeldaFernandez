@@ -121,6 +121,7 @@ Final model (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 · 
 What does this mean in practice? Acquiring a new telecom customer costs 5–7× more than retaining an existing one. The model correctly identifies 76% of customers who will cancel — before they do — giving the retention team enough time to act. But the MLOps infrastructure is the actual value here: the pipeline monitors incoming data for distribution shift and retrains automatically when more than 40% of features drift. A new model only replaces the current one if it outperforms it on ROC-AUC. The result is a self-maintaining system that stays aligned with current customer behaviour without any manual intervention.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+
 ---
 
 
@@ -157,5 +158,5 @@ What does this mean in practice? This project is not about the model — the dia
 
 ---
 
----
+
 *Repositories in progress — publishing progressively throughout 2026.*
