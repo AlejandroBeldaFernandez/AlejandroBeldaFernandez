@@ -96,6 +96,7 @@ Mejor modelo (XGBoost): RMSE 69.568 € · R² 0.897 · MAPE 15.27%
 De media, el precio predicho por el modelo se encuentra dentro del 15% del precio real. Para una propiedad de 200.000 €, el error esperado es de aproximadamente 30.000 €. La superficie construida y el distrito son los factores dominantes — y se amplifican mutuamente: un piso grande en Chamberí vale desproporcionadamente más que uno igual de grande en Vallecas. El modelo es más fiable para propiedades estándar en distritos bien representados, y menos fiable para propiedades atípicas o de lujo en los extremos de la distribución.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
+
 ---
 
 ### 03 — Clustering de perfiles de clientes
@@ -113,6 +114,7 @@ Que significa esto en la practica? Los clientes Premium (ingresos altos, sin hij
 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
+
 ---
 ### 04 — MLOPS Prediccion de fuga de clientes
 
@@ -129,6 +131,7 @@ Modelo final (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 ·
 Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones cuesta entre 5 y 7 veces mas que retener a uno existente. El modelo identifica correctamente el 76% de los clientes que van a cancelar — antes de que lo hagan — dandole al equipo de retencion tiempo suficiente para actuar. Pero la infraestructura MLOps es el valor real del proyecto: el pipeline monitoriza los datos entrantes en busca de cambios en la distribucion y reentrena automaticamente cuando mas del 40% de las variables muestran drift. Un modelo nuevo solo reemplaza al actual si lo supera en ROC-AUC. El resultado es un sistema que se mantiene alineado con el comportamiento actual de los clientes sin ninguna intervencion manual.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+
 ---
 
 ### Extra — Cloud: Inferencia ML Serverless en AWS
@@ -146,4 +149,22 @@ Que significa esto en la practica? Este proyecto no trata sobre el modelo — Ir
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/AWS-Iris-Prediction.git)
 
 ---
+
+### Extra — Cloud: Inferencia ML Serverless en Azure
+
+Tipo: Despliegue Cloud · Arquitectura Serverless
+
+Stack: Azure Blob Storage · Azure Functions · Python · scikit-learn
+
+Dataset: Diabetes (scikit-learn, usado como caso de estudio minimo — el foco de este proyecto es la arquitectura cloud, no el modelo)
+
+Proyecto pequeño y autocontenido construido para demostrar conocimiento practico de Azure: un modelo de regresion servido a traves de un endpoint HTTP publico, sin servidor que administrar. El pipeline entrenado (StandardScaler + RandomForestRegressor) se almacena en Blob Storage, se carga bajo demanda por una Azure Function, y se expone mediante su trigger HTTP nativo, sin necesidad de un servicio adicional equivalente a API Gateway.
+
+Que significa esto en la practica? Este proyecto no trata sobre el modelo — el dataset de diabetes es deliberadamente simple para que el foco se mantenga en la arquitectura. Demuestra el ciclo completo de despliegue serverless de extremo a extremo: creacion de recursos mediante la Azure CLI (el portal web resulto insuficiente por restricciones de plan con la suscripcion gratuita), registro de proveedores de recursos, gestion de restricciones de region, configuracion de permisos de npm para las Core Tools, y exposicion de un modelo como API publica sin aprovisionar ningun servidor. El README documenta los problemas reales encontrados y resueltos por el camino, ya que depurar un despliegue es tan representativo de la habilidad como el despliegue en si.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Azure-Diabetes-Prediction.git)
+
+---
+
+
 *Repositorios en progreso — publicacion progresiva a lo largo de 2026.*
