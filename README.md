@@ -125,6 +125,7 @@ What does this mean in practice? Acquiring a new telecom customer costs 5–7× 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
 
 ---
+
 ### 05 — Store Sales Forecasting
 Type: Time Series Forecasting · Panel Data Regression
 
