@@ -134,6 +134,24 @@ Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones
 
 ---
 
+### 05 — Predicion de Series Temporales de ventas de tiendas
+
+Tipo: Prediccion de Series Temporales · Regresion de Datos de Panel
+
+Stack: Python · pandas · statsmodels · linearmodels · scikit-learn · LightGBM · XGBoost · Optuna · SHAP · Plotly
+
+Dataset: Kaggle — Corporación Favorita Store Sales (Ecuador)
+
+Proyecto de prevision de principio a fin sobre un panel minorista de 3 millones de filas (1.782 series tienda × familia de producto durante 4,5 años). Abarca analisis exploratorio, diagnostico clasico de series temporales (descomposicion aditiva, ACF/PACF, test de estacionariedad ADF), un baseline econometrico interpretable (PanelOLS con efectos fijos de entidad), ingenieria de variables sin fugas (lags, medias moviles desplazadas, calendario), un benchmark naive y modelos globales de gradient boosting (LightGBM y XGBoost) ajustados con Optuna sobre una validacion cruzada temporal personalizada para datos de panel. Comportamiento del modelo explicado con SHAP.
+
+Modelo final (XGBoost + Optuna): RMSLE 0.381 · R² 0.977 · ~28% mejor que el baseline naive. LightGBM se eligio para produccion: precision casi identica y mas rapido de reentrenar.
+
+Que significa esto en la practica? Una cadena minorista pierde dinero de dos formas: roturas de stock (ventas perdidas) y exceso de inventario (desperdicio, sobre todo en perecederos). Este modelo predice la demanda diaria de cada combinacion tienda–familia, permitiendo una asignacion de inventario mas inteligente. Pero el verdadero valor esta en la explicabilidad: las predicciones se explican sobre todo por la inercia reciente de ventas (media de 7 dias + dia anterior), mientras que el precio del petroleo y los festivos apenas importan una vez conocido el historial reciente. La unica palanca de alto impacto que la empresa realmente controla son las promociones, asi que el modelo funciona ademas como simulador de escenarios, estimando el incremento de ventas de una promocion antes de gastar un solo dolar.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Store-Sales.git)
+
+---
+
 ### Extra — Cloud: Inferencia ML Serverless en AWS
 
 Tipo: Despliegue Cloud · Arquitectura Serverless
