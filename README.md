@@ -137,6 +137,8 @@ End-to-end forecasting project on a 3-million-row retail panel (1,782 store × p
 Final model (XGBoost + Optuna): RMSLE 0.381 · R² 0.977 · ~28% better than the naive baseline. LightGBM was chosen for production — near-identical accuracy, faster to retrain.
 
 What does this mean in practice? Retailers lose money two ways: stockouts (lost sales) and overstock (waste, especially in perishables). This model forecasts daily demand for every store–product-family combination, enabling smarter inventory allocation. But the real insight comes from explainability: predictions are driven overwhelmingly by recent sales momentum (7-day average + previous day), while oil price and holidays barely matter once recent history is known. The one high-impact lever the business actually controls is promotions — so the model doubles as a scenario simulator, estimating the sales lift of a promotion before a single dollar is spent.
+
+
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Store-Sales.git)
 
 ---
