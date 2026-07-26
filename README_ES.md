@@ -168,6 +168,20 @@ Que significa esto en la practica? Este proyecto no trata sobre el modelo — Ir
 
 ---
 
+### 06 — Analisis de Ventas de Cafeteria
+Tipo: Analisis Exploratorio de Datos · Business Intelligence
+Stack: PostgreSQL · Google Sheets · Metabase · Google Slides
+Dataset: Maven Analytics — Coffee Shop Sales (Nueva York)
+Proyecto de analisis de ventas end-to-end de Maven Roasters, una cadena de cafeterias ficticia con tres locales en Nueva York (Astoria, Hell's Kitchen, Lower Manhattan). Cubre limpieza de datos en SQL (conversion de tipos, normalizacion de decimales), 12 preguntas de negocio respondidas integramente en SQL (agregaciones, funciones de fecha, window functions, analisis de Pareto), un dashboard interactivo en Metabase, un reporte estructurado en Google Sheets y una presentacion de data storytelling en Google Slides.
+Hallazgos clave: el revenue casi se duplica de enero a junio en los tres locales. Coffee y Tea generan el 66% del revenue total. La mañana concentra mas del 54% de todas las transacciones. Solo 11 tipos de producto generan el 80% del revenue (regla de Pareto). Los tres locales tienen un rendimiento muy equilibrado, lo que sugiere una gestion homogenea de la cadena.
+Que significa esto en la practica? Un propietario de cafeteria puede usar este analisis para decidir que productos potenciar o retirar, optimizar los turnos de personal segun las franjas de mayor actividad y diseñar campañas de marketing en los meses mas debiles. El codigo SQL esta completamente documentado y es reutilizable para cualquier dataset similar de retail o restauracion.
+
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
+
+---
+
+
 ### Extra — Cloud: Inferencia ML Serverless en Azure
 
 Tipo: Despliegue Cloud · Arquitectura Serverless
