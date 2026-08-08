@@ -157,6 +157,23 @@ What does this mean in practice? A coffee shop owner can use this analysis to de
 
 ---
 
+### 07 — Amazon Reviews Spanish
+Type: NLP · Deep Learning · Information Retrieval
+Stack: Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
+Dataset: Amazon Reviews Multi — Spanish subset (208,899 reviews)
+
+End-to-end sentiment classification on Spanish Amazon reviews, labelling each one as negative, neutral or positive. Covers exploratory analysis and non-parametric statistical testing with effect sizes, a TF-IDF baseline selected from 144 configurations, a fine-tuned BETO transformer with class-weighted loss, a formal A/B comparison (McNemar, bootstrap confidence intervals, inference timing, agreement analysis), embedding visualisation with t-SNE, and a retrieval system over the same corpus built with ChromaDB.
+
+Key findings: BETO reaches 0.765 macro F1 against 0.725 for the baseline, and the difference is solid — McNemar returns p = 1.3e-12 and the bootstrap interval excludes zero. It also costs 1,009 times more per prediction, 48 ms against 0.048 ms on the same CPU. On the distinction that matters commercially the model is strong: 0.85 and 0.88 F1 on negative and positive, with the sign inverted in only 1% of cases. The neutral class is the bottleneck at 0.563 — and three independent measurements in the exploratory stage predicted exactly that, three stages before any model was trained. The corpus also turned out not to support product-level analysis at all: 156,458 products for 208,899 reviews, a median of one review each.
+
+What does this mean in practice? A company can score any customer text that carries no rating — support tickets, surveys, social mentions — flag a product whose incoming reviews turn negative before its star average moves, and query the reasons behind a score instead of reading thousands of reviews. And the deployment recommendation is the baseline, not the transformer: four points of macro F1 rarely justify a thousandfold increase in cost per prediction, and the linear model is the one you can audit, one weight per word.
+
+The method is the reusable part: nothing was cleaned before it was measured, which is why the HTML-stripping stage this pipeline would normally include was never written; no test was reported without an effect size, because at 200,000 observations every p-value rejects; and the experimental rigour was scaled to the cost — 144 configurations where a fit takes 53 seconds, one standard recipe where it takes 23 minutes.
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
+
+
+---
+
 ### Extra — Cloud: Serverless ML Inference on AWS
 
 Type: Cloud Deployment · Serverless Architecture
