@@ -61,7 +61,7 @@ Libreria Python para generacion de datos sinteticos, desarrollada durante mi eta
 
 ---
 
-### 01 — Predicción heridos accidente de trafico en Madrid
+### 01 — Predicción heridos accidentes de tráfico en Madrid
 
 **Tipo:** Clasificacion
 
@@ -100,6 +100,7 @@ De media, el precio predicho por el modelo se encuentra dentro del 15% del preci
 ---
 
 ### 03 — Clustering de perfiles de clientes
+
 Tipo: Clustering No Supervisado
 
 Stack: Python · pandas · scikit-learn · umap-learn
@@ -116,7 +117,7 @@ Que significa esto en la practica? Los clientes Premium (ingresos altos, sin hij
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
 
 ---
-### 04 — MLOPS Prediccion de fuga de clientes
+### 04 — MLOps Predicción de fuga de clientes
 
 Tipo: Pipeline MLOps · Clasificación Binaria
 
@@ -134,7 +135,7 @@ Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones
 
 ---
 
-### 05 — Predicion de Series Temporales de ventas de tiendas
+### 05 — Predicción de Series Temporales de ventas de tiendas
 
 Tipo: Prediccion de Series Temporales · Regresion de Datos de Panel
 
@@ -152,7 +153,8 @@ Que significa esto en la practica? Una cadena minorista pierde dinero de dos for
 
 ---
 
-### 06 — Analisis de Ventas de Cafeteria
+### 06 — Análisis de Ventas de Cafeterías
+
 Tipo: Analisis Exploratorio de Datos · Business Intelligence
 Stack: PostgreSQL · Google Sheets · Metabase · Google Slides
 Dataset: Maven Analytics — Coffee Shop Sales (Nueva York)
@@ -161,6 +163,25 @@ Hallazgos clave: el revenue casi se duplica de enero a junio en los tres locales
 Que significa esto en la practica? Un propietario de cafeteria puede usar este analisis para decidir que productos potenciar o retirar, optimizar los turnos de personal segun las franjas de mayor actividad y diseñar campañas de marketing en los meses mas debiles. El codigo SQL esta completamente documentado y es reutilizable para cualquier dataset similar de retail o restauracion.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
+
+---
+
+
+### 07 — Reseñas de Amazon en Español
+
+Tipo: NLP · Deep Learning · Recuperación de información
+Stack: Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
+Dataset: Amazon Reviews Multi — subconjunto en español (208.899 reseñas)
+
+Dos sistemas sobre el mismo corpus. Un clasificador que etiqueta el sentimiento de una reseña como negativo, neutro o positivo, comparando un baseline TF-IDF seleccionado entre 144 configuraciones contra un transformer BETO ajustado. Y un sistema RAG que responde preguntas sobre el corpus en lenguaje natural, filtrando por las etiquetas del propio clasificador y fundamentando cada respuesta en reseñas reales que cita. El proyecto cubre además análisis exploratorio con contrastes no paramétricos y tamaños del efecto, comparación A/B formal (McNemar, bootstrap, tiempo de inferencia, análisis de acuerdo) y visualización de embeddings con t-SNE.
+
+Hallazgos del clasificador: BETO alcanza 0,765 de F1 macro frente a 0,725 del baseline, y la diferencia es sólida — McNemar devuelve p = 1,3e-12 y el intervalo bootstrap excluye el cero. También cuesta 1.009 veces más por predicción, 48 ms frente a 0,048 ms en la misma CPU. En la distinción que importa comercialmente el modelo es fuerte: 0,85 y 0,88 de F1 en negativo y positivo, invirtiendo el signo en solo el 1 % de los casos. La clase neutra es el cuello de botella, y tres mediciones independientes del análisis exploratorio lo predijeron tres etapas antes de entrenar nada.
+
+Hallazgos del RAG: preguntado ¿de qué se quejan los clientes de productos wireless?, el sistema devolvió quince reseñas de las que casi ninguna hablaba del producto: vendedores que no contestan, pedidos que nunca llegaron, devoluciones que costaron semanas de mensajes. En esa categoría la insatisfacción es mayoritariamente logística y no de producto, una conclusión con un responsable claro y que ninguna métrica agregada puede producir. El clasificador puede decir que el 46 % de esas reseñas son negativas; solo la recuperación puede decir que las quejas van del envío.
+
+¿Qué significa esto en la práctica? Los dos sistemas son complementarios: el clasificador dice cuántos clientes están descontentos y dónde, la recuperación dice por qué y cita a quienes lo dijeron. Y el análisis de coste no es académico, decide la arquitectura: etiquetar las 208.899 reseñas que alimentan el índice cuesta 10 segundos con el baseline frente a 2,8 horas con BETO, así que cuatro puntos de F1 macro rara vez justifican multiplicar por mil el coste por predicción.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
 
 ---
 
