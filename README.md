@@ -124,6 +124,10 @@ What does this mean in practice? Acquiring a new telecom customer costs 5–7× 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
 
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
+
 ---
 
 ### 05 — Store Sales Forecasting
@@ -180,6 +184,10 @@ What does this mean in practice? The two systems are complementary: the classifi
 
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
 
 ---
