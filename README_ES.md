@@ -156,7 +156,9 @@ Que significa esto en la practica? Una cadena minorista pierde dinero de dos for
 ### 06 — Análisis de Ventas de Cafeterías
 
 Tipo: Analisis Exploratorio de Datos · Business Intelligence
+
 Stack: PostgreSQL · Google Sheets · Metabase · Google Slides
+
 Dataset: Maven Analytics — Coffee Shop Sales (Nueva York)
 
 Proyecto de analisis de ventas end-to-end de Maven Roasters, una cadena de cafeterias ficticia con tres locales en Nueva York (Astoria, Hell's Kitchen, Lower Manhattan). Cubre limpieza de datos en SQL (conversion de tipos, normalizacion de decimales), 12 preguntas de negocio respondidas integramente en SQL (agregaciones, funciones de fecha, window functions, analisis de Pareto), un dashboard interactivo en Metabase, un reporte estructurado en Google Sheets y una presentacion de data storytelling en Google Slides.
@@ -173,7 +175,9 @@ Que significa esto en la practica? Un propietario de cafeteria puede usar este a
 ### 07 — Reseñas de Amazon en Español
 
 Tipo: NLP · Deep Learning · Recuperación de información
+
 Stack: Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
+
 Dataset: Amazon Reviews Multi — subconjunto en español (208.899 reseñas)
 
 Dos sistemas sobre el mismo corpus. Un clasificador que etiqueta el sentimiento de una reseña como negativo, neutro o positivo, comparando un baseline TF-IDF seleccionado entre 144 configuraciones contra un transformer BETO ajustado. Y un sistema RAG que responde preguntas sobre el corpus en lenguaje natural, filtrando por las etiquetas del propio clasificador y fundamentando cada respuesta en reseñas reales que cita. El proyecto cubre además análisis exploratorio con contrastes no paramétricos y tamaños del efecto, comparación A/B formal (McNemar, bootstrap, tiempo de inferencia, análisis de acuerdo) y visualización de embeddings con t-SNE.
