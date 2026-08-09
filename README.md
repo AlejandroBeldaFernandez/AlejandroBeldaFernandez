@@ -146,10 +146,15 @@ What does this mean in practice? Retailers lose money two ways: stockouts (lost 
 
 ### 06 — Coffee Shop Sales Analysis
 Type: Exploratory Data Analysis · Business Intelligence
+
 Stack: PostgreSQL · Google Sheets · Metabase · Google Slides
+
 Dataset: Maven Analytics — Coffee Shop Sales (NYC)
+
 End-to-end sales analysis of Maven Roasters, a fictitious coffee shop chain operating across three NYC locations (Astoria, Hell's Kitchen, Lower Manhattan). Covers data cleaning in SQL (type casting, decimal normalisation), 12 business questions answered entirely in SQL (aggregations, date functions, window functions, Pareto analysis), an interactive dashboard built in Metabase, a structured report in Google Sheets and a data storytelling presentation in Google Slides.
+
 Key findings: revenue nearly doubled from January to June across all three locations. Coffee and Tea drive 66% of total revenue. Morning concentrates over 54% of all transactions. Only 11 product types generate 80% of revenue (Pareto rule). The three locations perform remarkably similarly, suggesting balanced chain management.
+
 What does this mean in practice? A coffee shop owner can use this analysis to decide which products to promote or cut, optimise staff shifts based on peak hours, and design targeted marketing campaigns for the weakest months. The SQL code is fully documented and reusable for any similar retail or F&B dataset.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
