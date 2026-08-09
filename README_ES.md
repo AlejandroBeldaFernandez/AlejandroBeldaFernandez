@@ -135,7 +135,7 @@ Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones
 
 DEMO:
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
 
 
 
@@ -198,7 +198,7 @@ Hallazgos del RAG: preguntado ¿de qué se quejan los clientes de productos wire
 
 DEMO:
 
-[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
 
 ---
