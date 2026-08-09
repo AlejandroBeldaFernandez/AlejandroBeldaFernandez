@@ -133,6 +133,12 @@ Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
 
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
+
+
+
 ---
 
 ### 05 — Predicción de Series Temporales de ventas de tiendas
@@ -189,6 +195,11 @@ Hallazgos del RAG: preguntado ¿de qué se quejan los clientes de productos wire
 ¿Qué significa esto en la práctica? Los dos sistemas son complementarios: el clasificador dice cuántos clientes están descontentos y dónde, la recuperación dice por qué y cita a quienes lo dijeron. Y el análisis de coste no es académico, decide la arquitectura: etiquetar las 208.899 reseñas que alimentan el índice cuesta 10 segundos con el baseline frente a 2,8 horas con BETO, así que cuatro puntos de F1 macro rara vez justifican multiplicar por mil el coste por predicción.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Spaces-FFD21E?style=for-the-badge&logoColor=black)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
+
 
 ---
 
