@@ -165,7 +165,9 @@ What does this mean in practice? A coffee shop owner can use this analysis to de
 ### 07 — Amazon Reviews Spanish
 
 Type: NLP · Deep Learning · Information Retrieval
+
 Stack: Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
+
 Dataset: Amazon Reviews Multi — Spanish subset (208,899 reviews)
 
 Two systems on the same corpus. A classifier labelling each review's sentiment as negative, neutral or positive, comparing a TF-IDF baseline selected from 144 configurations against a fine-tuned BETO transformer. And a RAG system that answers questions about the corpus in natural language, filtering by the classifier's own labels and grounding every answer in real reviews that it cites. The project also covers exploratory analysis with non-parametric testing and effect sizes, a formal A/B comparison (McNemar, bootstrap, inference timing, agreement analysis) and embedding visualisation with t-SNE.
