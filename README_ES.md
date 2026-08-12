@@ -200,6 +200,27 @@ DEMO:
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
+---
+
+### 08 — Sistema de Recomendación de Películas
+
+Tipo: Sistemas de Recomendación · Filtrado Colaborativo · Factorización de Matrices
+
+Stack: Python · pandas · scikit-learn · Surprise (SVD) · Gradio
+
+Dataset: The Movies Dataset (Kaggle, TMDB + MovieLens) — 7.818 películas, 671 usuarios, ~100.000 valoraciones
+
+Tres sistemas de recomendación independientes comparados sobre el mismo catálogo: filtrado basado en contenido a partir de la metadata propia de cada película (género, reparto, director, palabras clave, estudio, franquicia), filtrado colaborativo item based a partir solo del comportamiento de coincidencia entre usuarios, y factorización de matrices SVD sobre esas mismas valoraciones. Los tres se evalúan con Precision@5/Recall@5 sobre el mismo conjunto reservado, y las diferencias entre ellos —arranque en frío, cobertura, qué significa "parecido" en cada uno— quedan documentadas en vez de mezcladas tras una única lista.
+
+Resultados: el colaborativo gana en Precision@5/Recall@5 por 7 a 8 veces frente al basado en contenido y a SVD (42,41%/15,16% frente a 5,93%/1,87% y 6,05%/1,57%), pero la diferencia se explica en vez de limitarse a reportarse — refleja que la métrica es exactamente la tarea para la que se construyó el colaborativo (predecir una valoración reservada), no un veredicto sobre qué modelo usaría de verdad un usuario real. El coste real de esa fortaleza es la cobertura: el mismo corte de 5 valoraciones mínimas que mantiene fiables las similitudes del colaborativo reduce el catálogo de 7.818 películas a 3.357 (43%), así que el 57% restante solo se puede recomendar a través del basado en contenido. Dos de los tres modelos resuelven su caso de arranque en frío más difícil (un usuario nuevo sin historial) —el basado en contenido ni siquiera tiene ese problema—, y ninguno de los tres puede recomendar una película completamente nueva sin valoraciones, una limitación estructural, no algo que se arregle con un parámetro.
+
+¿Qué significa esto en la práctica? Los tres modelos son complementarios, no competidores: el basado en contenido no tiene arranque en frío y responde "más como esta" para cualquier película descrita, el colaborativo es la señal más afilada sobre el 43% del catálogo con historial real de valoraciones, y SVD cambia interpretabilidad por compresión sobre ese mismo 43%. Un producto construido sobre esto necesita los tres, más un plan explícito para el 57% al que colaborativo y SVD no llegan — no porque no estén bien ajustados, sino porque nunca recibieron la señal que necesitan.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
 
 ---
 
