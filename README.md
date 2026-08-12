@@ -189,6 +189,27 @@ DEMO:
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
+---
+
+### 08 — Movie Recommendation System
+
+Type: Recommender Systems · Collaborative Filtering · Matrix Factorization
+
+Stack: Python · pandas · scikit-learn · Surprise (SVD) · Gradio
+
+Dataset: The Movies Dataset (Kaggle, TMDB + MovieLens) — 7,818 movies, 671 users, ~100,000 ratings
+
+Three independent recommender systems compared on the same catalog: content based filtering from a movie's own metadata (genre, cast, director, keywords, studio, franchise), item based collaborative filtering from co-rating behavior alone, and SVD matrix factorization on those same ratings. All three are evaluated with Precision@5/Recall@5 on a matched held out split, and the trade-offs between them — cold start, coverage, what "similar" even means — are documented rather than blended away behind a single ranked list.
+
+Findings: collaborative filtering wins Precision@5/Recall@5 by 7 to 8 times over content based and SVD (42.41%/15.16% against 5.93%/1.87% and 6.05%/1.57%), but the gap is explained rather than just reported — it reflects that the metric is exactly the task collaborative filtering was built for (predicting a held out rating), not a verdict on which model a real user would act on. The real cost of that strength is coverage: the 5-rating cutoff that keeps collaborative similarities trustworthy also drops the catalog from 7,818 movies to 3,357 (43%), so 57% of it can only be recommended through content based filtering. Two of the three models solve their hardest cold start case (a new user with no history) — content based filtering never has that problem to begin with — and none of the three can recommend a brand new movie with zero ratings, a structural gap rather than something a parameter fixes.
+
+What does this mean in practice? The three models are complements, not competitors: content based filtering has no cold start and answers "more like this" for any movie ever described, collaborative filtering is the sharpest signal on the 43% of the catalog with a real rating history, and SVD trades interpretability for compression on that same 43%. A product built on this needs all three, plus an explicit fallback for the 57% collaborative and SVD cannot reach — not because they weren't tuned, but because the signal they need was never given to them.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
 
 ---
 
