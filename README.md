@@ -213,6 +213,25 @@ DEMO:
 
 ---
 
+### 09 — Fashion Product Images Classification
+
+Type: Computer Vision · Transfer Learning · Image Classification · Explainable AI (Grad-CAM)
+
+Stack: Python · PyTorch · torchvision · scikit-learn · Grad-CAM
+
+Dataset: Fashion Product Images (Kaggle) — 43,946 products across 4 categories, after removing 3 that had too little data to classify reliably
+
+Two transfer learning architectures, EfficientNetB0 and ResNet50, trained and compared on the same masterCategory classification task: frozen ImageNet backbones with only the final layer retrained, evaluated on real held out test data rather than validation alone, and interpreted with Grad-CAM rather than left as a black box.
+
+Findings: ResNet50 beats EfficientNetB0 on every class and every metric (99% accuracy and balanced accuracy against 97%), a consistent gap across the board, not one lucky epoch. The headline number is explained rather than just reported: 3 of the original 7 categories were dropped before training even started because there wasn't enough data to classify them reliably (Home: 1 image; Sporting Goods: 25, would need roughly ×854 augmentation to match the largest class; Free Items: 105, ×203 and visually incoherent, a "free gift" can be almost any object). Grad-CAM turned what was left into a specific, explainable failure mode instead of a black box: Accessories and Apparel account for 63% of all test errors between them, and the heatmaps show why — in photos where an accessory is worn as part of an outfit, attention locks onto the accessory (a scarf, dense beadwork) instead of the garment actually labeled.
+
+What does this mean in practice? The model is close to production ready for Footwear and Personal Care (11 and 1 errors respectively out of thousands of test images), and its one real weak spot is a specific, understood boundary rather than random noise — the kind of failure a business can plan a fallback around, not one it gets blindsided by. A real deployment still needs an explicit plan for the 3 excluded categories, and finer categories than masterCategory alone for most retail search and filtering.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Fashion-Product-Images)
+
+---
+
+
 ### Extra — Cloud: Serverless ML Inference on AWS
 
 Type: Cloud Deployment · Serverless Architecture
