@@ -224,6 +224,24 @@ DEMO:
 
 ---
 
+### 09 — Clasificación de Imágenes de Productos de Moda
+
+Tipo: Visión por Computador · Transfer Learning · Clasificación de Imágenes · IA Explicable (Grad-CAM)
+
+Stack: Python · PyTorch · torchvision · scikit-learn · Grad-CAM
+
+Dataset: Fashion Product Images (Kaggle) — 43.946 productos en 4 categorías, tras eliminar 3 que no tenían datos suficientes para clasificarse con fiabilidad
+
+Dos arquitecturas de transfer learning, EfficientNetB0 y ResNet50, entrenadas y comparadas sobre la misma tarea de clasificación de masterCategory: backbones de ImageNet congelados con solo la última capa reentrenada, evaluadas sobre datos de test reales nunca vistos y no solo validación, e interpretadas con Grad-CAM en vez de dejarlas como una caja negra.
+
+Resultados: ResNet50 gana a EfficientNetB0 en todas las clases y todas las métricas (99% de accuracy y balanced accuracy frente a 97%), una diferencia consistente en todo el tablero, no una época con suerte. La cifra principal se explica, no solo se reporta: 3 de las 7 categorías originales se eliminaron antes de empezar a entrenar porque no había datos suficientes para clasificarlas con fiabilidad (Home: 1 imagen; Sporting Goods: 25, necesitaría un multiplicador de augmentation de ~×854 para igualar a la clase mayor; Free Items: 105, ×203 y además visualmente incoherente, un "regalo gratis" puede ser casi cualquier objeto). Grad-CAM convirtió lo que quedaba en un fallo específico y explicable en vez de una caja negra: Accessories y Apparel suman el 63% de todos los errores de test entre las dos, y los mapas de calor muestran por qué — en fotos donde se lleva puesto un accesorio como parte de un conjunto, la atención se fija en el accesorio (una bufanda, un bordado denso) en vez de en la prenda realmente etiquetada.
+
+¿Qué significa esto en la práctica? El modelo está cerca de estar listo para producción en Footwear y Personal Care (11 y 1 errores respectivamente sobre miles de imágenes de test), y su único punto débil real es una frontera concreta y entendida, no ruido aleatorio, el tipo de fallo sobre el que un negocio puede planear un fallback, no uno que le pille por sorpresa. Un despliegue real todavía necesita un plan explícito para las 3 categorías excluidas, y categorías más finas que masterCategory sola para la mayoría de búsquedas y filtros de retail.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Fashion-Product-Images)
+
+---
+
 ### Extra — Cloud: Inferencia ML Serverless en AWS
 
 Tipo: Despliegue Cloud · Arquitectura Serverless
