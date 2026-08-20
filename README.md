@@ -47,6 +47,8 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 A quick way into the portfolio for anyone short on time the five that best represent range: an end-to-end automated pipeline, a comparative recommender system, a full production MLOps stack, a pure-SQL business analysis, and NLP combining classification with retrieval.
 
+---
+
 ### Automated News Report Generator
 
 Scraping, orchestration, local LLM summarization and self-hosted deployment, verified against the real service at every step rather than its documentation.
@@ -56,6 +58,8 @@ Scraping, orchestration, local LLM summarization and self-hosted deployment, ver
 DEMO:
 
 [![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
+
+---
 
 ###  Movie Recommendation System 
 
@@ -67,6 +71,8 @@ DEMO:
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
 
+---
+
 ### MLOps Telco Customer Churn
 
 Full production lifecycle: tracking, orchestration, drift monitoring, automated retraining and a deployed API.
@@ -77,11 +83,15 @@ DEMO:
 
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
 
+---
+
 ### Coffee Shop Sales Analysis
 
 12 business questions answered entirely in SQL, from cleaning to a dashboard and a data storytelling presentation.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
+
+---
 
 ### Amazon Reviews Spanish 
 
