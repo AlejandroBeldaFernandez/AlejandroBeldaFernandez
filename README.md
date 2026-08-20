@@ -47,7 +47,6 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 A quick way into the portfolio for anyone short on time the five that best represent range: an end-to-end automated pipeline, a comparative recommender system, a full production MLOps stack, a pure-SQL business analysis, and NLP combining classification with retrieval.
 
----
 
 ### Automated News Report Generator
 
