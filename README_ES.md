@@ -50,33 +50,62 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 Una forma rápida de explorar el portafolio para quien disponga de poco tiempo; los cinco proyectos que mejor representan la variedad de habilidades: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
 
+---
+
 ### Generador Automatizado de Reportes de Noticias
 
 Extracción de datos (*scraping*), orquestación, resumen mediante LLM local y despliegue autoalojado, verificado paso a paso frente al servicio real en lugar de limitarse a su documentación.
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
+
 DEMO:
+
+[![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
+
+---
 
 ### Sistema de Recomendación de Películas
 
 Tres enfoques de recomendación comparados y explicados, en lugar de combinarse en un ranking de caja negra.
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
+
 DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
+
+---
 
 ### MLOps: Predicción de Churn de Clientes en Telecomunicaciones
 
 Ciclo de vida completo en producción: seguimiento, orquestación, monitorización de desvío de datos (*drift*), reentrenamiento automatizado y una API desplegada.
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+
 DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
+
+---
 
 ### Análisis de Ventas de una Cafetería
 
 12 preguntas de negocio respondidas íntegramente en SQL, desde la limpieza de datos hasta un Cuadro de Mando (*dashboard*) y una presentación de *data storytelling*.
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
+
+---
+
+
 ### Reseñas de Amazon en Español
 
 Clasificación de sentimiento y un sistema RAG sobre el mismo corpus, con una comparación A/B formal entre un modelo base y un *transformer* ajustado (*fine-tuned*).
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
+
 DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
 ---
 
@@ -88,6 +117,7 @@ Librería de Python para la generación de datos tabulares sintéticos, desarrol
 
 Creada para resolver un problema real dentro del grupo de investigación: generar datos tabulares realistas para desarrollo y pruebas sin exponer datos de origen confidenciales, permitiendo al mismo tiempo simular el tipo de desvío que sufren los modelos en producción a lo largo del tiempo.
 
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
 ---
 
 ## Proyectos
