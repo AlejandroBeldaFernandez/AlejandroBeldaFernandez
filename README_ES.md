@@ -242,6 +242,24 @@ Resultados: ResNet50 gana a EfficientNetB0 en todas las clases y todas las métr
 
 ---
 
+### 10 — Automated News Report Generator
+
+Tipo: Web Scraping · Orquestación de Workflows · Resumen con LLM Local · Despliegue Autoalojado
+
+Stack: Python · Playwright · Prefect · SQLite · Transformers (Qwen2.5) · ReportLab · Docker · GitHub Actions · Gradio · Tailscale Funnel
+
+Fuente: sitemap de Google News en vivo de RTVE (Radiotelevisión Española) — entre 75 y 190 artículos por descarga, repartidos en 5 secciones (noticias, deportes, catalunya, play, rtve)
+
+Un pipeline de extremo a extremo (extracción → filtrado → scraping → resumen → PDF) construido y verificado contra el servicio real en cada paso, no contra su documentación: el `robots.txt` se comprobó en vivo antes de elegir la fuente de datos, los selectores HTML se confirmaron contra páginas de artículo reales en vez de adivinarse, y cada opción de hosting gratuito evaluada para el dashboard público se probó contra sus límites reales de cuenta, no contra su página de marketing.
+
+Hallazgos: los dos planes que parecían más sencillos sobre el papel resultaron ser callejones sin salida al comprobarlos en vivo. El RSS clásico de RTVE redirige a un host desactualizado desde 2022 y bloqueado por su propio `robots.txt`; el pipeline usa en su lugar el sitemap de Google News, explícitamente permitido, pero sin autolimitarse a 48h como sugiere la convención de Google — aparecían entradas de 2008 mezcladas con las de hoy, así que el filtro de antigüedad hubo que aplicarlo en el propio pipeline, no asumirlo de la fuente. El destino de despliegue previsto, Hugging Face Spaces, no pudo crear ningún Space con cómputo en la cuenta usada (Docker, Gradio+CPU y ZeroGPU, todos bloqueados, por motivos que no se pudieron diagnosticar desde fuera); Streamlit Community Cloud (1GB de RAM) y Google Colab (límites de sesión) se comprobaron y descartaron de forma concreta antes de terminar en autoalojamiento vía Docker + Tailscale Funnel, la opción que sí funcionó, verificada desde fuera de la propia red del autor.
+
+¿Qué significa esto en la práctica? Un reporte diario funcional y con cita a la fuente: cada entrada del PDF lleva título, categoría y un enlace de vuelta al artículo original de RTVE, construido en código plano a partir de la base de datos, nunca generado por el modelo, ya que el texto completo del artículo nunca se publica en ningún sitio por diseño, para mantenerse dentro de las condiciones de uso de RTVE. El dashboard solo está disponible mientras la máquina autoalojada esté encendida (aproximadamente de 9:00 a 23:00), no 24/7: la contrapartida honesta de un despliegue realmente gratuito frente a una plataforma cloud que, en este caso, resultó no ser utilizable en absoluto.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
+
+---
+
 ### Extra — Cloud: Inferencia ML Serverless en AWS
 
 Tipo: Despliegue Cloud · Arquitectura Serverless
