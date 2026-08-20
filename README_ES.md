@@ -46,14 +46,47 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 ![Hojas de calculo](https://img.shields.io/badge/Spreadsheets-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 ---
+## Proyectos Destacados
 
-## Open source
+Una forma rápida de explorar el portafolio para quien disponga de poco tiempo; los cinco proyectos que mejor representan la variedad de habilidades: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
+
+### Generador Automatizado de Reportes de Noticias
+
+Extracción de datos (*scraping*), orquestación, resumen mediante LLM local y despliegue autoalojado, verificado paso a paso frente al servicio real en lugar de limitarse a su documentación.
+
+DEMO:
+
+### Sistema de Recomendación de Películas
+
+Tres enfoques de recomendación comparados y explicados, en lugar de combinarse en un ranking de caja negra.
+
+DEMO:
+
+### MLOps: Predicción de Churn de Clientes en Telecomunicaciones
+
+Ciclo de vida completo en producción: seguimiento, orquestación, monitorización de desvío de datos (*drift*), reentrenamiento automatizado y una API desplegada.
+
+DEMO:
+
+### Análisis de Ventas de una Cafetería
+
+12 preguntas de negocio respondidas íntegramente en SQL, desde la limpieza de datos hasta un Cuadro de Mando (*dashboard*) y una presentación de *data storytelling*.
+
+### Reseñas de Amazon en Español
+
+Clasificación de sentimiento y un sistema RAG sobre el mismo corpus, con una comparación A/B formal entre un modelo base y un *transformer* ajustado (*fine-tuned*).
+
+DEMO:
+
+---
+
+## Código Abierto
 
 ### calm-data-generator
 
-Libreria Python para generacion de datos sinteticos, desarrollada durante mi etapa como investigador. Publicada en PyPI y mantenida de forma independiente. Disenada para generar datasets tabulares realistas para desarrollo, pruebas y prototipado.
+Librería de Python para la generación de datos tabulares sintéticos, desarrollada durante mi etapa como investigador y publicada de forma independiente en PyPI. Envuelve varios motores de generación (incluido synthcity) bajo una única interfaz unificada, añade una capa de simulación de deriva de concepto (*concept drift*) para evaluar cómo se degradan los modelos secundarios bajo cambios de distribución, y genera un informe automatizado de calidad de datos para cada conjunto generado: comparaciones de distribución respecto a los datos de origen, preservación de correlaciones e indicadores básicos de riesgo de privacidad.
 
-[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
+Creada para resolver un problema real dentro del grupo de investigación: generar datos tabulares realistas para desarrollo y pruebas sin exponer datos de origen confidenciales, permitiendo al mismo tiempo simular el tipo de desvío que sufren los modelos en producción a lo largo del tiempo.
 
 ---
 
