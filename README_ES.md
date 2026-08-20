@@ -258,6 +258,11 @@ Hallazgos: los dos planes que parecían más sencillos sobre el papel resultaron
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
 
+DEMO:
+
+[![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
+
+
 ---
 
 ### Extra — Cloud: Inferencia ML Serverless en AWS
