@@ -43,11 +43,65 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 ---
 
+## Top Projects
+
+A quick way into the portfolio for anyone short on time the five that best represent range: an end-to-end automated pipeline, a comparative recommender system, a full production MLOps stack, a pure-SQL business analysis, and NLP combining classification with retrieval.
+
+### Automated News Report Generator
+
+Scraping, orchestration, local LLM summarization and self-hosted deployment, verified against the real service at every step rather than its documentation.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
+
+DEMO:
+
+[![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
+
+###  Movie Recommendation System 
+
+Three recommender approaches compared and explained rather than blended into one black-box ranking.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
+
+### MLOps Telco Customer Churn
+
+Full production lifecycle: tracking, orchestration, drift monitoring, automated retraining and a deployed API.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
+
+### Coffee Shop Sales Analysis
+
+12 business questions answered entirely in SQL, from cleaning to a dashboard and a data storytelling presentation.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
+
+### Amazon Reviews Spanish 
+
+Sentiment classification and a RAG system on the same corpus, with a formal A/B comparison between a baseline and a fine-tuned transformer.
+
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
+
+DEMO:
+
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
+
+---
+
 ## Open source
 
 ### calm-data-generator
-Python library for synthetic data generation, developed during my time as a researcher. Published on PyPI and maintained independently. Designed to generate realistic tabular datasets for development, testing, and prototyping.
-PyPI · GitHub
+
+Python library for synthetic tabular data generation, developed during my time as a researcher and published independently on PyPI. It wraps several generation backends (including synthcity) behind a single unified interface, adds a concept drift simulation layer for testing how downstream models degrade under distribution shift, and produces an automated data quality report for every generated dataset — distribution comparisons against the source data, correlation preservation, and basic privacy risk indicators.
+
+Built to solve a real problem in the research group: generating realistic tabular data for development and testing without exposing sensitive source data, while still being able to simulate the kind of drift that production models actually face over time.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
 
@@ -136,7 +190,11 @@ Type: Time Series Forecasting · Panel Data Regression
 Stack: Python · pandas · statsmodels · linearmodels · scikit-learn · LightGBM · XGBoost · Optuna · SHAP · Plotly
 
 Dataset: Kaggle — Corporación Favorita Store Sales (Ecuador)
+Entendido, eso cambia el planteamiento: no se trata de elegir el monitor "ideal" para ciencia de datos, sino de encontrar el mejor equilibrio único que cubra ambos usos en el mismo espacio. Con esa restricción, la recomendación se puede afinar.
 
+Descartar el 32 pulgadas estándar
+
+Dado que no hay alternativa y este dispositivo sustituye por completo al televisor, iría directamente a buscar más tamaño que el 32 pulgadas, ya que la pérdida de superficie visual respecto a tu 40 pulgadas actual (un 35% menos aproximadamente) es demasiado grande para asumirla sin margen de compensación. Las opciones más razonables son es
 End-to-end forecasting project on a 3-million-row retail panel (1,782 store × product-family series over 4.5 years). Covers exploratory analysis, classical time series diagnostics (additive decomposition, ACF/PACF, ADF stationarity test), an interpretable econometric baseline (PanelOLS with entity fixed effects), leakage-safe feature engineering (lags, shifted rolling means, calendar features), a naive benchmark, and global gradient-boosting models (LightGBM & XGBoost) tuned with Optuna over a custom time-series cross-validation built for panel data. Model behaviour explained with SHAP.
 
 Final model (XGBoost + Optuna): RMSLE 0.381 · R² 0.977 · ~28% better than the naive baseline. LightGBM was chosen for production — near-identical accuracy, faster to retrain.
@@ -247,6 +305,10 @@ What does this mean in practice? A working, source-cited daily report: every ent
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
 
+DEMO:
+
+[![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
+
 ---
 
 ### Extra — Cloud: Serverless ML Inference on AWS
@@ -281,6 +343,3 @@ What does this mean in practice? This project is not about the model — the dia
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Azure-Diabetes-Prediction.git)
 
 ---
-
-
-*Repositories in progress — publishing progressively throughout 2026.*
