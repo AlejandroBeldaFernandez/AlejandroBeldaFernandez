@@ -102,6 +102,7 @@ Python library for synthetic tabular data generation, developed during my time a
 Built to solve a real problem in the research group: generating realistic tabular data for development and testing without exposing sensitive source data, while still being able to simulate the kind of drift that production models actually face over time.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
+[![PyPI](https://img.shields.io/pypi/v/calm-data-generator.svg)](https://pypi.org/project/calm-data-generator/)
 
 ---
 
