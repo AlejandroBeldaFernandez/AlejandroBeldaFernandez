@@ -4,7 +4,7 @@
 
 > [Web](https://alejandrobeldafernandez.github.io/)
 
-> [CV](https://alejandrobeldafernandez.github.io/CV_Alejandro_Belda.pdf) 
+> [CV](https://alejandrobeldafernandez.github.io/CV.pdf) 
 
 ---
 
