@@ -20,7 +20,7 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
-[![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/)
+[![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/alejandro-belda-fernandez.mpt)
 [![InfoJobs](https://img.shields.io/badge/InfoJobs-16853B?style=for-the-badge&logo=infojobs&logoColor=white)](https://www.infojobs.net/)
 
 ---
