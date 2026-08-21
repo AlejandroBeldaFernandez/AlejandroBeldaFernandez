@@ -2,6 +2,8 @@
 
 > [View this portfolio in English](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README.md)
 
+> [Web](https://alejandrobeldafernandez.github.io/index-es.html) 
+
 ---
 
 ## Sobre mí
