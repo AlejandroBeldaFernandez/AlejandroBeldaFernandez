@@ -1,16 +1,16 @@
-# Alejandro Belda Fernandez — Portfolio
+# Alejandro Belda Fernández — Portfolio
 
 > [View this portfolio in English](https://github.com/AlejandroBeldaFernandez/AlejandroBeldaFernandez/blob/main/README.md)
 
 ---
 
-## Sobre mi
+## Sobre mí
 
-Graduado en Informatica por la Universidad de Murcia con Master en Inteligencia Artificial. Durante un año trabaje como investigador (PDI) gestionando datasets biologicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigacion academica. Esta experiencia me dio una base solida en calidad del dato, rigor metodologico y trabajo con datos reales y ruidosos. Actualmente estoy en transicion hacia roles en la industria como Data Scientist o Data Analyst.
+Graduado en Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente estoy en transición hacia roles en la industria como Data Scientist o Data Analyst.
 
-Disfruto del pipeline completo: entender el problema de negocio, limpiar y transformar datos desordenados, explorarlos con las preguntas correctas, construir modelos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluacion honesta, las decisiones documentadas y las conclusiones que los perfiles no tecnicos puedan llevar a la practica.
+Disfruto del pipeline completo: entender el problema de negocio, limpiar y transformar datos desordenados, explorarlos con las preguntas correctas, construir modelos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
 
-**Idiomas:** Español (nativo) · Ingles (B2)
+**Idiomas:** Español (nativo) · Inglés (B2)
 
 **Contacto:** alejandrobeldafernandez@gmail.com
 
@@ -18,10 +18,18 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 ---
 
+## Contenido
+
+- [Habilidades](#habilidades)
+- [Proyectos Destacados](#proyectos-destacados)
+- [Código Abierto](#código-abierto)
+- [Listado Completo de Proyectos](#listado-completo-de-proyectos)
+
+---
+
 ## Habilidades
 
 ### Machine Learning
-
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -29,7 +37,6 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 ![Seaborn](https://img.shields.io/badge/Seaborn-%23113254.svg?style=for-the-badge&logo=Seaborn&logoColor=white)
 
 ### MLOps y Despliegue
-
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
@@ -38,73 +45,46 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 ![Prefect](https://img.shields.io/badge/Prefect-ffffff?style=for-the-badge&logo=prefect&logoColor=20144d)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
-### Bases de datos y herramientas
 
+### Bases de Datos y Herramientas
 ![SQL](https://img.shields.io/badge/sql-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![PyPI](https://img.shields.io/badge/PyPI-3775A9?style=for-the-badge&logo=pypi&logoColor=white)
 ![Herramientas BI](https://img.shields.io/badge/BI%20Tools-FF6B35?style=for-the-badge&logo=chartdotjs&logoColor=white)
-![Hojas de calculo](https://img.shields.io/badge/Spreadsheets-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![Hojas de cálculo](https://img.shields.io/badge/Spreadsheets-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 
 ---
+
 ## Proyectos Destacados
 
-Una forma rápida de explorar el portafolio para quien disponga de poco tiempo; los cinco proyectos que mejor representan la variedad de habilidades: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
-
----
+Una forma rápida de explorar el portfolio para quien disponga de poco tiempo: los cinco proyectos que mejor representan la variedad de habilidades: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
 
 ### Generador Automatizado de Reportes de Noticias
-
 Extracción de datos (*scraping*), orquestación, resumen mediante LLM local y despliegue autoalojado, verificado paso a paso frente al servicio real en lugar de limitarse a su documentación.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
-
-DEMO:
-
 [![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
 
----
-
 ### Sistema de Recomendación de Películas
-
 Tres enfoques de recomendación comparados y explicados, en lugar de combinarse en un ranking de caja negra.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
 
----
-
 ### MLOps: Predicción de Churn de Clientes en Telecomunicaciones
-
 Ciclo de vida completo en producción: seguimiento, orquestación, monitorización de desvío de datos (*drift*), reentrenamiento automatizado y una API desplegada.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
 
----
-
 ### Análisis de Ventas de una Cafetería
-
-12 preguntas de negocio respondidas íntegramente en SQL, desde la limpieza de datos hasta un Cuadro de Mando (*dashboard*) y una presentación de *data storytelling*.
+12 preguntas de negocio respondidas íntegramente en SQL, desde la limpieza de datos hasta un cuadro de mando (*dashboard*) y una presentación de *data storytelling*.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
 
----
-
-
 ### Reseñas de Amazon en Español
-
 Clasificación de sentimiento y un sistema RAG sobre el mismo corpus, con una comparación A/B formal entre un modelo base y un *transformer* ajustado (*fine-tuned*).
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
 ---
@@ -112,111 +92,92 @@ DEMO:
 ## Código Abierto
 
 ### calm-data-generator
-
 Librería de Python para la generación de datos tabulares sintéticos, desarrollada durante mi etapa como investigador y publicada de forma independiente en PyPI. Envuelve varios motores de generación (incluido synthcity) bajo una única interfaz unificada, añade una capa de simulación de deriva de concepto (*concept drift*) para evaluar cómo se degradan los modelos secundarios bajo cambios de distribución, y genera un informe automatizado de calidad de datos para cada conjunto generado: comparaciones de distribución respecto a los datos de origen, preservación de correlaciones e indicadores básicos de riesgo de privacidad.
 
 Creada para resolver un problema real dentro del grupo de investigación: generar datos tabulares realistas para desarrollo y pruebas sin exponer datos de origen confidenciales, permitiendo al mismo tiempo simular el tipo de desvío que sufren los modelos en producción a lo largo del tiempo.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Calm-Data-Generator)
----
-
-## Proyectos
 
 ---
 
-### 01 — Predicción heridos accidentes de tráfico en Madrid
+## Listado Completo de Proyectos
 
-**Tipo:** Clasificacion
+### 01 — Predicción de Heridos en Accidentes de Tráfico en Madrid
 
+**Tipo:** Clasificación
 **Stack:** Python · pandas · scikit-learn · CatBoost · Optuna · SHAP
-
 **Dataset:** Datos abiertos del Ayuntamiento de Madrid (2019–2023)
 
-Predice si un accidente de trafico en Madrid va a resultar en al menos un herido, usando informacion disponible en el momento en que se registra el incidente. El proyecto cubre la agregacion de personas por accidente, feature engineering, tres modelos con ajuste de hiperparametros mediante Optuna, explicabilidad con SHAP y recomendaciones accionables para la asignacion de recursos de emergencia.
+Predice si un accidente de tráfico en Madrid va a resultar en al menos un herido, usando información disponible en el momento en que se registra el incidente. El proyecto cubre la agregación de personas por accidente, feature engineering, tres modelos con ajuste de hiperparámetros mediante Optuna, explicabilidad con SHAP y recomendaciones accionables para la asignación de recursos de emergencia.
 
-**Mejor modelo (CatBoost):** ROC AUC 0.873 · Balanced Accuracy 0.801 · Macro F1 0.73
+**Resultados (CatBoost):** ROC AUC 0.873 · Balanced Accuracy 0.801 · Macro F1 0.73
 
-**Que significa esto en la practica?**
-De cada 10 accidentes que el modelo predice como con heridos, aproximadamente 8 o 9 son correctos. Tambien identifica correctamente la mayoria de accidentes sin heridos, evitando el despacho innecesario de recursos. Los errores restantes son en su mayoria falsas alarmas en lugar de heridos no detectados, que en un contexto de emergencias es el tipo de error menos grave.
+**En la práctica:** de cada 10 accidentes que el modelo predice como con heridos, aproximadamente 8 o 9 son correctos. También identifica correctamente la mayoría de accidentes sin heridos, evitando el despacho innecesario de recursos. Los errores restantes son en su mayoría falsas alarmas en lugar de heridos no detectados, que en un contexto de emergencias es el tipo de error menos grave.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-traffic-accidents)
 
 ---
 
-### 02 — Predicción precio de la vivienda en Madrid
+### 02 — Predicción del Precio de la Vivienda en Madrid
 
-Tipo: Regresión
+**Tipo:** Regresión
+**Stack:** Python · pandas · scikit-learn · XGBoost · Optuna · SHAP
+**Dataset:** Kaggle — Anuncios de propiedades residenciales en Madrid
 
-Stack: Python · pandas · scikit-learn · XGBoost · Optuna · SHAP
+Predice el precio de venta de propiedades residenciales en Madrid a partir de sus características físicas y ubicación. El proyecto incluye limpieza de datos, ingeniería de características, TargetEncoder para la codificación del distrito, tres modelos con ajuste mediante Optuna, intervalos de confianza vía bootstrap y validación cruzada, y explicabilidad con SHAP.
 
-Dataset: Kaggle — Anuncios de propiedades residenciales en Madrid
+**Resultados (XGBoost):** RMSE 69.568 € · R² 0.897 · MAPE 15.27%
 
-Predice el precio de venta de propiedades residenciales en Madrid a partir de sus características físicas y ubicación. El proyecto incluye limpieza de datos, ingeniería de características, TargetEncoder para la codificación del distrito, tres modelos con tuning mediante Optuna, intervalos de confianza via bootstrap y validación cruzada, y explicabilidad con SHAP.
-
-Mejor modelo (XGBoost): RMSE 69.568 € · R² 0.897 · MAPE 15.27%
-
-¿Qué significa esto en la práctica?
-De media, el precio predicho por el modelo se encuentra dentro del 15% del precio real. Para una propiedad de 200.000 €, el error esperado es de aproximadamente 30.000 €. La superficie construida y el distrito son los factores dominantes — y se amplifican mutuamente: un piso grande en Chamberí vale desproporcionadamente más que uno igual de grande en Vallecas. El modelo es más fiable para propiedades estándar en distritos bien representados, y menos fiable para propiedades atípicas o de lujo en los extremos de la distribución.
+**En la práctica:** de media, el precio predicho por el modelo se encuentra dentro del 15% del precio real. Para una propiedad de 200.000 €, el error esperado es de aproximadamente 30.000 €. La superficie construida y el distrito son los factores dominantes, y se amplifican mutuamente: un piso grande en Chamberí vale desproporcionadamente más que uno igual de grande en Vallecas. El modelo es más fiable para propiedades estándar en distritos bien representados, y menos fiable para propiedades atípicas o de lujo en los extremos de la distribución.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/madrid-real-estate-prediction.git)
 
 ---
 
-### 03 — Clustering de perfiles de clientes
+### 03 — Clustering de Perfiles de Clientes
 
-Tipo: Clustering No Supervisado
+**Tipo:** Clustering No Supervisado
+**Stack:** Python · pandas · scikit-learn · umap-learn
+**Dataset:** Kaggle — Customer Personality Analysis
 
-Stack: Python · pandas · scikit-learn · umap-learn
+Segmenta clientes en 3 perfiles diferenciados a partir de datos demográficos, de gasto y de respuesta a campañas. El proyecto incluye detección de outliers con Isolation Forest, feature engineering, One-Hot Encoding, RobustScaler, reducción de dimensionalidad con PCA, K-Means con selección de K por codo y silueta, visualización con UMAP y recomendaciones de negocio accionables por segmento.
 
-Dataset: Kaggle — Customer Personality Analysis
+**Resultados (K-Means K=3 + PCA):** Silhouette Score 0.24 · 3 segmentos identificados
 
-Segmenta clientes en 3 perfiles diferenciados a partir de datos demograficos, de gasto y de respuesta a campanas. El proyecto incluye deteccion de outliers con Isolation Forest, feature engineering, One-Hot Encoding, RobustScaler, reduccion de dimensionalidad con PCA, K-Means con seleccion de K por codo y silueta, visualizacion con UMAP y recomendaciones de negocio accionables por segmento.
-
-Modelo final (K-Means K=3 + PCA): Silhouette Score 0.24 · 3 segmentos identificados
-
-Que significa esto en la practica? Los clientes Premium (ingresos altos, sin hijos) gastan €1.274 de media y responden a campanas sin necesidad de descuentos. Los Cazadores de Ofertas (ingresos medios, ~1 hijo) compran 3.4 veces mas cuando hay promociones disponibles — ahi es donde el presupuesto en descuentos tiene mayor ROI. Los Escaparatistas (ingresos mas bajos, mas hijos) visitan la web 6.4 veces al mes pero gastan solo €80 — alta intencion, barrera economica. Aplicar la misma campana a los tres grupos simultaneamente es la peor asignacion posible del presupuesto de marketing.
-
+**En la práctica:** los clientes Premium (ingresos altos, sin hijos) gastan 1.274 € de media y responden a campañas sin necesidad de descuentos. Los Cazadores de Ofertas (ingresos medios, ~1 hijo) compran 3,4 veces más cuando hay promociones disponibles: ahí es donde el presupuesto en descuentos tiene mayor ROI. Los Escaparatistas (ingresos más bajos, más hijos) visitan la web 6,4 veces al mes pero gastan solo 80 €: alta intención, barrera económica. Aplicar la misma campaña a los tres grupos simultáneamente es la peor asignación posible del presupuesto de marketing.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Customer-Personality-Analysis.git)
 
 ---
-### 04 — MLOps Predicción de fuga de clientes
 
-Tipo: Pipeline MLOps · Clasificación Binaria
+### 04 — MLOps: Predicción de Fuga de Clientes
 
-Stack: Python · scikit-learn · Optuna · MLflow · Prefect · FastAPI · Evidently AI · PostgreSQL · Grafana · Docker · Terraform · Streamlit
+**Tipo:** Pipeline MLOps · Clasificación Binaria
+**Stack:** Python · scikit-learn · Optuna · MLflow · Prefect · FastAPI · Evidently AI · PostgreSQL · Grafana · Docker · Terraform · Streamlit
+**Dataset:** Kaggle — IBM Telco Customer Churn
 
-Dataset: Kaggle — IBM Telco Customer Churn
+Pipeline MLOps de extremo a extremo que cubre el ciclo de vida completo en producción: validación de datos, ingeniería de features, optimización de hiperparámetros con Optuna (150 trials, validación cruzada de 5 folds), seguimiento de experimentos con MLflow, orquestación con Prefect, monitorización de drift con Evidently AI, reentrenamiento automático, versionado de modelos con promoción a @champion, API REST con FastAPI y demo interactiva desplegada en Hugging Face Spaces.
 
-Pipeline MLOps de extremo a extremo que cubre el ciclo de vida completo en produccion: validacion de datos, ingenieria de features, optimizacion de hiperparametros con Optuna (150 trials, validacion cruzada de 5 folds), seguimiento de experimentos con MLflow, orquestacion con Prefect, monitorizacion de drift con Evidently AI, reentrenamiento automatico, versionado de modelos con promocion a @champion, API REST con FastAPI y demo interactiva desplegada en HuggingFace Spaces.
+**Resultados (Random Forest + Optuna):** ROC-AUC 0.84 · Balanced Accuracy 0.76 · Recall (churn) 0.76
 
-Modelo final (Random Forest + Optuna): ROC-AUC 0.84 · Balanced Accuracy 0.76 · Recall (churn) 0.76
-
-Que significa esto en la practica? Captar un nuevo cliente de telecomunicaciones cuesta entre 5 y 7 veces mas que retener a uno existente. El modelo identifica correctamente el 76% de los clientes que van a cancelar — antes de que lo hagan — dandole al equipo de retencion tiempo suficiente para actuar. Pero la infraestructura MLOps es el valor real del proyecto: el pipeline monitoriza los datos entrantes en busca de cambios en la distribucion y reentrena automaticamente cuando mas del 40% de las variables muestran drift. Un modelo nuevo solo reemplaza al actual si lo supera en ROC-AUC. El resultado es un sistema que se mantiene alineado con el comportamiento actual de los clientes sin ninguna intervencion manual.
+**En la práctica:** captar un nuevo cliente de telecomunicaciones cuesta entre 5 y 7 veces más que retener a uno existente. El modelo identifica correctamente al 76% de los clientes que van a cancelar, antes de que lo hagan, dándole al equipo de retención tiempo suficiente para actuar. Pero la infraestructura MLOps es el valor real del proyecto: el pipeline monitoriza los datos entrantes en busca de cambios en la distribución y reentrena automáticamente cuando más del 40% de las variables muestran drift. Un modelo nuevo solo reemplaza al actual si lo supera en ROC-AUC. El resultado es un sistema que se mantiene alineado con el comportamiento actual de los clientes sin ninguna intervención manual.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/MLOPS-Telco-Customer-Churn-Prediction.git)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/telco-churn-predictor)
-
-
 
 ---
 
-### 05 — Predicción de Series Temporales de ventas de tiendas
+### 05 — Predicción de Series Temporales de Ventas en Tiendas
 
-Tipo: Prediccion de Series Temporales · Regresion de Datos de Panel
+**Tipo:** Predicción de Series Temporales · Regresión de Datos de Panel
+**Stack:** Python · pandas · statsmodels · linearmodels · scikit-learn · LightGBM · XGBoost · Optuna · SHAP · Plotly
+**Dataset:** Kaggle — Corporación Favorita Store Sales (Ecuador)
 
-Stack: Python · pandas · statsmodels · linearmodels · scikit-learn · LightGBM · XGBoost · Optuna · SHAP · Plotly
+Proyecto de previsión de principio a fin sobre un panel minorista de 3 millones de filas (1.782 series tienda × familia de producto durante 4,5 años). Abarca análisis exploratorio, diagnóstico clásico de series temporales (descomposición aditiva, ACF/PACF, test de estacionariedad ADF), un baseline econométrico interpretable (PanelOLS con efectos fijos de entidad), ingeniería de variables sin fugas (lags, medias móviles desplazadas, calendario), un benchmark naive y modelos globales de gradient boosting (LightGBM y XGBoost) ajustados con Optuna sobre una validación cruzada temporal personalizada para datos de panel. Comportamiento del modelo explicado con SHAP.
 
-Dataset: Kaggle — Corporación Favorita Store Sales (Ecuador)
+**Resultados (XGBoost + Optuna):** RMSLE 0.381 · R² 0.977 · ~28% mejor que el baseline naive. LightGBM se eligió para producción: precisión casi idéntica y más rápido de reentrenar.
 
-Proyecto de prevision de principio a fin sobre un panel minorista de 3 millones de filas (1.782 series tienda × familia de producto durante 4,5 años). Abarca analisis exploratorio, diagnostico clasico de series temporales (descomposicion aditiva, ACF/PACF, test de estacionariedad ADF), un baseline econometrico interpretable (PanelOLS con efectos fijos de entidad), ingenieria de variables sin fugas (lags, medias moviles desplazadas, calendario), un benchmark naive y modelos globales de gradient boosting (LightGBM y XGBoost) ajustados con Optuna sobre una validacion cruzada temporal personalizada para datos de panel. Comportamiento del modelo explicado con SHAP.
-
-Modelo final (XGBoost + Optuna): RMSLE 0.381 · R² 0.977 · ~28% mejor que el baseline naive. LightGBM se eligio para produccion: precision casi identica y mas rapido de reentrenar.
-
-Que significa esto en la practica? Una cadena minorista pierde dinero de dos formas: roturas de stock (ventas perdidas) y exceso de inventario (desperdicio, sobre todo en perecederos). Este modelo predice la demanda diaria de cada combinacion tienda–familia, permitiendo una asignacion de inventario mas inteligente. Pero el verdadero valor esta en la explicabilidad: las predicciones se explican sobre todo por la inercia reciente de ventas (media de 7 dias + dia anterior), mientras que el precio del petroleo y los festivos apenas importan una vez conocido el historial reciente. La unica palanca de alto impacto que la empresa realmente controla son las promociones, asi que el modelo funciona ademas como simulador de escenarios, estimando el incremento de ventas de una promocion antes de gastar un solo dolar.
+**En la práctica:** una cadena minorista pierde dinero de dos formas: roturas de stock (ventas perdidas) y exceso de inventario (desperdicio, sobre todo en perecederos). Este modelo predice la demanda diaria de cada combinación tienda–familia, permitiendo una asignación de inventario más inteligente. Pero el verdadero valor está en la explicabilidad: las predicciones se explican sobre todo por la inercia reciente de ventas (media de 7 días + día anterior), mientras que el precio del petróleo y los festivos apenas importan una vez conocido el historial reciente. La única palanca de alto impacto que la empresa realmente controla son las promociones, así que el modelo funciona además como simulador de escenarios, estimando el incremento de ventas de una promoción antes de gastar un solo euro.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Store-Sales.git)
 
@@ -224,121 +185,98 @@ Que significa esto en la practica? Una cadena minorista pierde dinero de dos for
 
 ### 06 — Análisis de Ventas de Cafeterías
 
-Tipo: Analisis Exploratorio de Datos · Business Intelligence
+**Tipo:** Análisis Exploratorio de Datos · Business Intelligence
+**Stack:** PostgreSQL · Google Sheets · Metabase · Google Slides
+**Dataset:** Maven Analytics — Coffee Shop Sales (Nueva York)
 
-Stack: PostgreSQL · Google Sheets · Metabase · Google Slides
+Proyecto de análisis de ventas de extremo a extremo de Maven Roasters, una cadena de cafeterías ficticia con tres locales en Nueva York (Astoria, Hell's Kitchen, Lower Manhattan). Cubre limpieza de datos en SQL (conversión de tipos, normalización de decimales), 12 preguntas de negocio respondidas íntegramente en SQL (agregaciones, funciones de fecha, window functions, análisis de Pareto), un dashboard interactivo en Metabase, un reporte estructurado en Google Sheets y una presentación de data storytelling en Google Slides.
 
-Dataset: Maven Analytics — Coffee Shop Sales (Nueva York)
+**Hallazgos clave:** el revenue casi se duplicó de enero a junio en los tres locales. Coffee y Tea generan el 66% del revenue total. La mañana concentra más del 54% de todas las transacciones. Solo 11 tipos de producto generan el 80% del revenue (regla de Pareto). Los tres locales tienen un rendimiento muy equilibrado, lo que sugiere una gestión homogénea de la cadena.
 
-Proyecto de analisis de ventas end-to-end de Maven Roasters, una cadena de cafeterias ficticia con tres locales en Nueva York (Astoria, Hell's Kitchen, Lower Manhattan). Cubre limpieza de datos en SQL (conversion de tipos, normalizacion de decimales), 12 preguntas de negocio respondidas integramente en SQL (agregaciones, funciones de fecha, window functions, analisis de Pareto), un dashboard interactivo en Metabase, un reporte estructurado en Google Sheets y una presentacion de data storytelling en Google Slides.
-
-Hallazgos clave: el revenue casi se duplica de enero a junio en los tres locales. Coffee y Tea generan el 66% del revenue total. La mañana concentra mas del 54% de todas las transacciones. Solo 11 tipos de producto generan el 80% del revenue (regla de Pareto). Los tres locales tienen un rendimiento muy equilibrado, lo que sugiere una gestion homogenea de la cadena.
-
-Que significa esto en la practica? Un propietario de cafeteria puede usar este analisis para decidir que productos potenciar o retirar, optimizar los turnos de personal segun las franjas de mayor actividad y diseñar campañas de marketing en los meses mas debiles. El codigo SQL esta completamente documentado y es reutilizable para cualquier dataset similar de retail o restauracion.
+**En la práctica:** un propietario de cafetería puede usar este análisis para decidir qué productos potenciar o retirar, optimizar los turnos de personal según las franjas de mayor actividad y diseñar campañas de marketing en los meses más débiles. El código SQL está completamente documentado y es reutilizable para cualquier dataset similar de retail o restauración.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Coffee-Shop-Sales.git)
 
 ---
 
-
 ### 07 — Reseñas de Amazon en Español
 
-Tipo: NLP · Deep Learning · Recuperación de información
-
-Stack: Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
-
-Dataset: Amazon Reviews Multi — subconjunto en español (208.899 reseñas)
+**Tipo:** NLP · Deep Learning · Recuperación de Información
+**Stack:** Python · scikit-learn · PyTorch · Hugging Face Transformers · ChromaDB
+**Dataset:** Amazon Reviews Multi — subconjunto en español (208.899 reseñas)
 
 Dos sistemas sobre el mismo corpus. Un clasificador que etiqueta el sentimiento de una reseña como negativo, neutro o positivo, comparando un baseline TF-IDF seleccionado entre 144 configuraciones contra un transformer BETO ajustado. Y un sistema RAG que responde preguntas sobre el corpus en lenguaje natural, filtrando por las etiquetas del propio clasificador y fundamentando cada respuesta en reseñas reales que cita. El proyecto cubre además análisis exploratorio con contrastes no paramétricos y tamaños del efecto, comparación A/B formal (McNemar, bootstrap, tiempo de inferencia, análisis de acuerdo) y visualización de embeddings con t-SNE.
 
-Hallazgos del clasificador: BETO alcanza 0,765 de F1 macro frente a 0,725 del baseline, y la diferencia es sólida — McNemar devuelve p = 1,3e-12 y el intervalo bootstrap excluye el cero. También cuesta 1.009 veces más por predicción, 48 ms frente a 0,048 ms en la misma CPU. En la distinción que importa comercialmente el modelo es fuerte: 0,85 y 0,88 de F1 en negativo y positivo, invirtiendo el signo en solo el 1 % de los casos. La clase neutra es el cuello de botella, y tres mediciones independientes del análisis exploratorio lo predijeron tres etapas antes de entrenar nada.
+**Hallazgos del clasificador:** BETO alcanza 0,765 de F1 macro frente a 0,725 del baseline, y la diferencia es sólida: McNemar devuelve p = 1,3e-12 y el intervalo bootstrap excluye el cero. También cuesta 1.009 veces más por predicción, 48 ms frente a 0,048 ms en la misma CPU. En la distinción que importa comercialmente el modelo es fuerte: 0,85 y 0,88 de F1 en negativo y positivo, invirtiendo el signo en solo el 1% de los casos. La clase neutra es el cuello de botella, y tres mediciones independientes del análisis exploratorio lo predijeron tres etapas antes de entrenar nada.
 
-Hallazgos del RAG: preguntado ¿de qué se quejan los clientes de productos wireless?, el sistema devolvió quince reseñas de las que casi ninguna hablaba del producto: vendedores que no contestan, pedidos que nunca llegaron, devoluciones que costaron semanas de mensajes. En esa categoría la insatisfacción es mayoritariamente logística y no de producto, una conclusión con un responsable claro y que ninguna métrica agregada puede producir. El clasificador puede decir que el 46 % de esas reseñas son negativas; solo la recuperación puede decir que las quejas van del envío.
+**Hallazgos del RAG:** preguntado de qué se quejan los clientes de productos wireless, el sistema devolvió quince reseñas de las que casi ninguna hablaba del producto: vendedores que no contestan, pedidos que nunca llegaron, devoluciones que costaron semanas de mensajes. En esa categoría la insatisfacción es mayoritariamente logística y no de producto, una conclusión con un responsable claro y que ninguna métrica agregada puede producir. El clasificador puede decir que el 46% de esas reseñas son negativas; solo la recuperación puede decir que las quejas van del envío.
 
-¿Qué significa esto en la práctica? Los dos sistemas son complementarios: el clasificador dice cuántos clientes están descontentos y dónde, la recuperación dice por qué y cita a quienes lo dijeron. Y el análisis de coste no es académico, decide la arquitectura: etiquetar las 208.899 reseñas que alimentan el índice cuesta 10 segundos con el baseline frente a 2,8 horas con BETO, así que cuatro puntos de F1 macro rara vez justifican multiplicar por mil el coste por predicción.
+**En la práctica:** los dos sistemas son complementarios: el clasificador dice cuántos clientes están descontentos y dónde, la recuperación dice por qué y cita a quienes lo dijeron. Y el análisis de coste no es académico, decide la arquitectura: etiquetar las 208.899 reseñas que alimentan el índice cuesta 10 segundos con el baseline frente a 2,8 horas con BETO, así que cuatro puntos de F1 macro rara vez justifican multiplicar por mil el coste por predicción.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Amazon-Reviews-Spanish.git)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/Amazon-Reviews-Spanish)
 
 ---
 
 ### 08 — Sistema de Recomendación de Películas
 
-Tipo: Sistemas de Recomendación · Filtrado Colaborativo · Factorización de Matrices
+**Tipo:** Sistemas de Recomendación · Filtrado Colaborativo · Factorización de Matrices
+**Stack:** Python · pandas · scikit-learn · Surprise (SVD) · Gradio
+**Dataset:** The Movies Dataset (Kaggle, TMDB + MovieLens) — 7.818 películas, 671 usuarios, ~100.000 valoraciones
 
-Stack: Python · pandas · scikit-learn · Surprise (SVD) · Gradio
+Tres sistemas de recomendación independientes comparados sobre el mismo catálogo: filtrado basado en contenido a partir de la metadata propia de cada película (género, reparto, director, palabras clave, estudio, franquicia), filtrado colaborativo item-based a partir solo del comportamiento de coincidencia entre usuarios, y factorización de matrices SVD sobre esas mismas valoraciones. Los tres se evalúan con Precision@5/Recall@5 sobre el mismo conjunto reservado, y las diferencias entre ellos (arranque en frío, cobertura, qué significa "parecido" en cada uno) quedan documentadas en vez de mezcladas tras una única lista.
 
-Dataset: The Movies Dataset (Kaggle, TMDB + MovieLens) — 7.818 películas, 671 usuarios, ~100.000 valoraciones
+**Resultados:** el colaborativo gana en Precision@5/Recall@5 por 7 a 8 veces frente al basado en contenido y a SVD (42,41%/15,16% frente a 5,93%/1,87% y 6,05%/1,57%), pero la diferencia se explica en vez de limitarse a reportarse: refleja que la métrica es exactamente la tarea para la que se construyó el colaborativo (predecir una valoración reservada), no un veredicto sobre qué modelo usaría de verdad un usuario real. El coste real de esa fortaleza es la cobertura: el mismo corte de 5 valoraciones mínimas que mantiene fiables las similitudes del colaborativo reduce el catálogo de 7.818 películas a 3.357 (43%), así que el 57% restante solo se puede recomendar a través del basado en contenido. Dos de los tres modelos resuelven su caso de arranque en frío más difícil (un usuario nuevo sin historial); el basado en contenido ni siquiera tiene ese problema; y ninguno de los tres puede recomendar una película completamente nueva sin valoraciones, una limitación estructural, no algo que se arregle con un parámetro.
 
-Tres sistemas de recomendación independientes comparados sobre el mismo catálogo: filtrado basado en contenido a partir de la metadata propia de cada película (género, reparto, director, palabras clave, estudio, franquicia), filtrado colaborativo item based a partir solo del comportamiento de coincidencia entre usuarios, y factorización de matrices SVD sobre esas mismas valoraciones. Los tres se evalúan con Precision@5/Recall@5 sobre el mismo conjunto reservado, y las diferencias entre ellos —arranque en frío, cobertura, qué significa "parecido" en cada uno— quedan documentadas en vez de mezcladas tras una única lista.
-
-Resultados: el colaborativo gana en Precision@5/Recall@5 por 7 a 8 veces frente al basado en contenido y a SVD (42,41%/15,16% frente a 5,93%/1,87% y 6,05%/1,57%), pero la diferencia se explica en vez de limitarse a reportarse — refleja que la métrica es exactamente la tarea para la que se construyó el colaborativo (predecir una valoración reservada), no un veredicto sobre qué modelo usaría de verdad un usuario real. El coste real de esa fortaleza es la cobertura: el mismo corte de 5 valoraciones mínimas que mantiene fiables las similitudes del colaborativo reduce el catálogo de 7.818 películas a 3.357 (43%), así que el 57% restante solo se puede recomendar a través del basado en contenido. Dos de los tres modelos resuelven su caso de arranque en frío más difícil (un usuario nuevo sin historial) —el basado en contenido ni siquiera tiene ese problema—, y ninguno de los tres puede recomendar una película completamente nueva sin valoraciones, una limitación estructural, no algo que se arregle con un parámetro.
-
-¿Qué significa esto en la práctica? Los tres modelos son complementarios, no competidores: el basado en contenido no tiene arranque en frío y responde "más como esta" para cualquier película descrita, el colaborativo es la señal más afilada sobre el 43% del catálogo con historial real de valoraciones, y SVD cambia interpretabilidad por compresión sobre ese mismo 43%. Un producto construido sobre esto necesita los tres, más un plan explícito para el 57% al que colaborativo y SVD no llegan — no porque no estén bien ajustados, sino porque nunca recibieron la señal que necesitan.
+**En la práctica:** los tres modelos son complementarios, no competidores: el basado en contenido no tiene arranque en frío y responde "más como esta" para cualquier película descrita, el colaborativo es la señal más afilada sobre el 43% del catálogo con historial real de valoraciones, y SVD cambia interpretabilidad por compresión sobre ese mismo 43%. Un producto construido sobre esto necesita los tres, más un plan explícito para el 57% al que colaborativo y SVD no llegan, no porque no estén bien ajustados, sino porque nunca recibieron la señal que necesitan.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Movies_Recommendations)
-
-DEMO:
-
 [![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue?style=for-the-badge)](https://huggingface.co/spaces/Alessandrou24/movie__Recommender)
 
 ---
 
 ### 09 — Clasificación de Imágenes de Productos de Moda
 
-Tipo: Visión por Computador · Transfer Learning · Clasificación de Imágenes · IA Explicable (Grad-CAM)
-
-Stack: Python · PyTorch · torchvision · scikit-learn · Grad-CAM
-
-Dataset: Fashion Product Images (Kaggle) — 43.946 productos en 4 categorías, tras eliminar 3 que no tenían datos suficientes para clasificarse con fiabilidad
+**Tipo:** Visión por Computador · Transfer Learning · Clasificación de Imágenes · IA Explicable (Grad-CAM)
+**Stack:** Python · PyTorch · torchvision · scikit-learn · Grad-CAM
+**Dataset:** Fashion Product Images (Kaggle) — 43.946 productos en 4 categorías, tras eliminar 3 que no tenían datos suficientes para clasificarse con fiabilidad
 
 Dos arquitecturas de transfer learning, EfficientNetB0 y ResNet50, entrenadas y comparadas sobre la misma tarea de clasificación de masterCategory: backbones de ImageNet congelados con solo la última capa reentrenada, evaluadas sobre datos de test reales nunca vistos y no solo validación, e interpretadas con Grad-CAM en vez de dejarlas como una caja negra.
 
-Resultados: ResNet50 gana a EfficientNetB0 en todas las clases y todas las métricas (99% de accuracy y balanced accuracy frente a 97%), una diferencia consistente en todo el tablero, no una época con suerte. La cifra principal se explica, no solo se reporta: 3 de las 7 categorías originales se eliminaron antes de empezar a entrenar porque no había datos suficientes para clasificarlas con fiabilidad (Home: 1 imagen; Sporting Goods: 25, necesitaría un multiplicador de augmentation de ~×854 para igualar a la clase mayor; Free Items: 105, ×203 y además visualmente incoherente, un "regalo gratis" puede ser casi cualquier objeto). Grad-CAM convirtió lo que quedaba en un fallo específico y explicable en vez de una caja negra: Accessories y Apparel suman el 63% de todos los errores de test entre las dos, y los mapas de calor muestran por qué — en fotos donde se lleva puesto un accesorio como parte de un conjunto, la atención se fija en el accesorio (una bufanda, un bordado denso) en vez de en la prenda realmente etiquetada.
+**Resultados:** ResNet50 gana a EfficientNetB0 en todas las clases y todas las métricas (99% de accuracy y balanced accuracy frente a 97%), una diferencia consistente en todo el tablero, no una época con suerte. La cifra principal se explica, no solo se reporta: 3 de las 7 categorías originales se eliminaron antes de empezar a entrenar porque no había datos suficientes para clasificarlas con fiabilidad (Home: 1 imagen; Sporting Goods: 25, necesitaría un multiplicador de augmentation de ~×854 para igualar a la clase mayor; Free Items: 105, ×203 y además visualmente incoherente, ya que un "regalo gratis" puede ser casi cualquier objeto). Grad-CAM convirtió lo que quedaba en un fallo específico y explicable en vez de una caja negra: Accessories y Apparel suman el 63% de todos los errores de test entre las dos, y los mapas de calor muestran por qué: en fotos donde se lleva puesto un accesorio como parte de un conjunto, la atención se fija en el accesorio (una bufanda, un bordado denso) en vez de en la prenda realmente etiquetada.
 
-¿Qué significa esto en la práctica? El modelo está cerca de estar listo para producción en Footwear y Personal Care (11 y 1 errores respectivamente sobre miles de imágenes de test), y su único punto débil real es una frontera concreta y entendida, no ruido aleatorio, el tipo de fallo sobre el que un negocio puede planear un fallback, no uno que le pille por sorpresa. Un despliegue real todavía necesita un plan explícito para las 3 categorías excluidas, y categorías más finas que masterCategory sola para la mayoría de búsquedas y filtros de retail.
+**En la práctica:** el modelo está cerca de estar listo para producción en Footwear y Personal Care (11 y 1 errores respectivamente sobre miles de imágenes de test), y su único punto débil real es una frontera concreta y entendida, no ruido aleatorio: el tipo de fallo sobre el que un negocio puede planear un fallback, no uno que le pille por sorpresa. Un despliegue real todavía necesita un plan explícito para las 3 categorías excluidas, y categorías más finas que masterCategory sola para la mayoría de búsquedas y filtros de retail.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Fashion-Product-Images)
 
 ---
 
-### 10 — Automated News Report Generator
+### 10 — Generador Automatizado de Reportes de Noticias
 
-Tipo: Web Scraping · Orquestación de Workflows · Resumen con LLM Local · Despliegue Autoalojado
-
-Stack: Python · Playwright · Prefect · SQLite · Transformers (Qwen2.5) · ReportLab · Docker · GitHub Actions · Gradio · Tailscale Funnel
-
-Fuente: sitemap de Google News en vivo de RTVE (Radiotelevisión Española) — entre 75 y 190 artículos por descarga, repartidos en 5 secciones (noticias, deportes, catalunya, play, rtve)
+**Tipo:** Web Scraping · Orquestación de Workflows · Resumen con LLM Local · Despliegue Autoalojado
+**Stack:** Python · Playwright · Prefect · SQLite · Transformers (Qwen2.5) · ReportLab · Docker · GitHub Actions · Gradio · Tailscale Funnel
+**Fuente:** sitemap de Google News en vivo de RTVE (Radiotelevisión Española) — entre 75 y 190 artículos por descarga, repartidos en 5 secciones (noticias, deportes, catalunya, play, rtve)
 
 Un pipeline de extremo a extremo (extracción → filtrado → scraping → resumen → PDF) construido y verificado contra el servicio real en cada paso, no contra su documentación: el `robots.txt` se comprobó en vivo antes de elegir la fuente de datos, los selectores HTML se confirmaron contra páginas de artículo reales en vez de adivinarse, y cada opción de hosting gratuito evaluada para el dashboard público se probó contra sus límites reales de cuenta, no contra su página de marketing.
 
-Hallazgos: los dos planes que parecían más sencillos sobre el papel resultaron ser callejones sin salida al comprobarlos en vivo. El RSS clásico de RTVE redirige a un host desactualizado desde 2022 y bloqueado por su propio `robots.txt`; el pipeline usa en su lugar el sitemap de Google News, explícitamente permitido, pero sin autolimitarse a 48h como sugiere la convención de Google — aparecían entradas de 2008 mezcladas con las de hoy, así que el filtro de antigüedad hubo que aplicarlo en el propio pipeline, no asumirlo de la fuente. El destino de despliegue previsto, Hugging Face Spaces, no pudo crear ningún Space con cómputo en la cuenta usada (Docker, Gradio+CPU y ZeroGPU, todos bloqueados, por motivos que no se pudieron diagnosticar desde fuera); Streamlit Community Cloud (1GB de RAM) y Google Colab (límites de sesión) se comprobaron y descartaron de forma concreta antes de terminar en autoalojamiento vía Docker + Tailscale Funnel, la opción que sí funcionó, verificada desde fuera de la propia red del autor.
+**Hallazgos:** los dos planes que parecían más sencillos sobre el papel resultaron ser callejones sin salida al comprobarlos en vivo. El RSS clásico de RTVE redirige a un host desactualizado desde 2022 y bloqueado por su propio `robots.txt`; el pipeline usa en su lugar el sitemap de Google News, explícitamente permitido, pero sin autolimitarse a 48h como sugiere la convención de Google: aparecían entradas de 2008 mezcladas con las de hoy, así que el filtro de antigüedad hubo que aplicarlo en el propio pipeline, no asumirlo de la fuente. El destino de despliegue previsto, Hugging Face Spaces, no pudo crear ningún Space con cómputo en la cuenta usada (Docker, Gradio+CPU y ZeroGPU, todos bloqueados, por motivos que no se pudieron diagnosticar desde fuera); Streamlit Community Cloud (1GB de RAM) y Google Colab (límites de sesión) se comprobaron y descartaron de forma concreta antes de terminar en autoalojamiento vía Docker + Tailscale Funnel, la opción que sí funcionó, verificada desde fuera de la propia red del autor.
 
-¿Qué significa esto en la práctica? Un reporte diario funcional y con cita a la fuente: cada entrada del PDF lleva título, categoría y un enlace de vuelta al artículo original de RTVE, construido en código plano a partir de la base de datos, nunca generado por el modelo, ya que el texto completo del artículo nunca se publica en ningún sitio por diseño, para mantenerse dentro de las condiciones de uso de RTVE. El dashboard solo está disponible mientras la máquina autoalojada esté encendida (aproximadamente de 9:00 a 23:00), no 24/7: la contrapartida honesta de un despliegue realmente gratuito frente a una plataforma cloud que, en este caso, resultó no ser utilizable en absoluto.
+**En la práctica:** un reporte diario funcional y con cita a la fuente: cada entrada del PDF lleva título, categoría y un enlace de vuelta al artículo original de RTVE, construido en código plano a partir de la base de datos, nunca generado por el modelo, ya que el texto completo del artículo nunca se publica en ningún sitio por diseño, para mantenerse dentro de las condiciones de uso de RTVE. El dashboard solo está disponible mientras la máquina autoalojada esté encendida (aproximadamente de 9:00 a 23:00), no 24/7: la contrapartida honesta de un despliegue realmente gratuito frente a una plataforma cloud que, en este caso, resultó no ser utilizable en absoluto.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Automated-News-Report)
-
-DEMO:
-
 [![Gradio Demo](https://img.shields.io/badge/Live%20Demo-Gradio-FF7C00.svg?style=for-the-badge&logo=gradio&logoColor=white)](https://alex-server.taile13699.ts.net/)
-
 
 ---
 
 ### Extra — Cloud: Inferencia ML Serverless en AWS
 
-Tipo: Despliegue Cloud · Arquitectura Serverless
+**Tipo:** Despliegue Cloud · Arquitectura Serverless
+**Stack:** AWS S3 · AWS Lambda · API Gateway · IAM · Python · scikit-learn
+**Dataset:** Iris (usado como caso de estudio mínimo — el foco de este proyecto es la arquitectura cloud, no el modelo)
 
-Stack: AWS S3 · AWS Lambda · API Gateway · IAM · Python · scikit-learn
+Proyecto pequeño y autocontenido construido para demostrar conocimiento práctico de AWS: un modelo de clasificación servido a través de un endpoint HTTP público, sin servidor que administrar. El pipeline entrenado (StandardScaler + DecisionTreeClassifier) se almacena en S3, se carga bajo demanda por una función Lambda, y se expone mediante API Gateway.
 
-Dataset: Iris (usado como caso de estudio minimo — el foco de este proyecto es la arquitectura cloud, no el modelo)
-
-Proyecto pequeño y autocontenido construido para demostrar conocimiento practico de AWS: un modelo de clasificacion servido a traves de un endpoint HTTP publico, sin servidor que administrar. El pipeline entrenado (StandardScaler + DecisionTreeClassifier) se almacena en S3, se carga bajo demanda por una funcion Lambda, y se expone mediante API Gateway.
-*Mas proyectos proximamente.*
-Que significa esto en la practica? Este proyecto no trata sobre el modelo — Iris es deliberadamente simple para que el foco se mantenga en la arquitectura. Demuestra el ciclo completo de despliegue serverless de extremo a extremo: empaquetado de dependencias para Lambda, configuracion de permisos IAM, gestion de cold starts, y exposicion de un modelo como API publica sin aprovisionar ningun servidor. El README documenta los problemas reales encontrados y resueltos por el camino (dependencias faltantes, limites de tamaño del paquete de Lambda, errores de sistema de archivos de solo lectura, timeouts por cold start), ya que depurar un despliegue es tan representativo de la habilidad como el despliegue en si.
+**En la práctica:** este proyecto no trata sobre el modelo; Iris es deliberadamente simple para que el foco se mantenga en la arquitectura. Demuestra el ciclo completo de despliegue serverless de extremo a extremo: empaquetado de dependencias para Lambda, configuración de permisos IAM, gestión de cold starts, y exposición de un modelo como API pública sin aprovisionar ningún servidor. El README documenta los problemas reales encontrados y resueltos por el camino (dependencias faltantes, límites de tamaño del paquete de Lambda, errores de sistema de archivos de solo lectura, timeouts por cold start), ya que depurar un despliegue es tan representativo de la habilidad como el despliegue en sí.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/AWS-Iris-Prediction.git)
 
@@ -346,19 +284,12 @@ Que significa esto en la practica? Este proyecto no trata sobre el modelo — Ir
 
 ### Extra — Cloud: Inferencia ML Serverless en Azure
 
-Tipo: Despliegue Cloud · Arquitectura Serverless
+**Tipo:** Despliegue Cloud · Arquitectura Serverless
+**Stack:** Azure Blob Storage · Azure Functions · Python · scikit-learn
+**Dataset:** Diabetes (scikit-learn, usado como caso de estudio mínimo — el foco de este proyecto es la arquitectura cloud, no el modelo)
 
-Stack: Azure Blob Storage · Azure Functions · Python · scikit-learn
+Proyecto pequeño y autocontenido construido para demostrar conocimiento práctico de Azure: un modelo de regresión servido a través de un endpoint HTTP público, sin servidor que administrar. El pipeline entrenado (StandardScaler + RandomForestRegressor) se almacena en Blob Storage, se carga bajo demanda por una Azure Function, y se expone mediante su trigger HTTP nativo, sin necesidad de un servicio adicional equivalente a API Gateway.
 
-Dataset: Diabetes (scikit-learn, usado como caso de estudio minimo — el foco de este proyecto es la arquitectura cloud, no el modelo)
-
-Proyecto pequeño y autocontenido construido para demostrar conocimiento practico de Azure: un modelo de regresion servido a traves de un endpoint HTTP publico, sin servidor que administrar. El pipeline entrenado (StandardScaler + RandomForestRegressor) se almacena en Blob Storage, se carga bajo demanda por una Azure Function, y se expone mediante su trigger HTTP nativo, sin necesidad de un servicio adicional equivalente a API Gateway.
-
-Que significa esto en la practica? Este proyecto no trata sobre el modelo — el dataset de diabetes es deliberadamente simple para que el foco se mantenga en la arquitectura. Demuestra el ciclo completo de despliegue serverless de extremo a extremo: creacion de recursos mediante la Azure CLI (el portal web resulto insuficiente por restricciones de plan con la suscripcion gratuita), registro de proveedores de recursos, gestion de restricciones de region, configuracion de permisos de npm para las Core Tools, y exposicion de un modelo como API publica sin aprovisionar ningun servidor. El README documenta los problemas reales encontrados y resueltos por el camino, ya que depurar un despliegue es tan representativo de la habilidad como el despliegue en si.
+**En la práctica:** este proyecto no trata sobre el modelo; el dataset de diabetes es deliberadamente simple para que el foco se mantenga en la arquitectura. Demuestra el ciclo completo de despliegue serverless de extremo a extremo: creación de recursos mediante la Azure CLI (el portal web resultó insuficiente por restricciones de plan con la suscripción gratuita), registro de proveedores de recursos, gestión de restricciones de región, configuración de permisos de npm para las Core Tools, y exposición de un modelo como API pública sin aprovisionar ningún servidor. El README documenta los problemas reales encontrados y resueltos por el camino, ya que depurar un despliegue es tan representativo de la habilidad como el despliegue en sí.
 
 [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez/Azure-Diabetes-Prediction.git)
-
----
-
-
-*Repositorios en progreso — publicacion progresiva a lo largo de 2026.*
