@@ -10,14 +10,13 @@
 
 ## Sobre mí
 
-Graduado en Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente estoy en transición hacia roles en la industria como Data Scientist o Data Analyst.
+Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente busco activamente oportunidades en la industria tecnológica.
 
-Disfruto del pipeline completo: entender el problema de negocio, limpiar y transformar datos desordenados, explorarlos con las preguntas correctas, construir modelos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
+Disfruto del pipeline completo: entender el problema raíz, limpiar y transformar entradas complejas, construir software y modelos sólidos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
 
 **Idiomas:** Español (nativo) · Inglés (B2)
 
 **Email:** alejandrobeldafernandez@gmail.com 
-
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
 [![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/alejandro-belda-fernandez.mpt)
@@ -36,7 +35,7 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 ## Habilidades
 
-### Machine Learning
+### Tecnologías y Modelado
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -63,7 +62,7 @@ Disfruto del pipeline completo: entender el problema de negocio, limpiar y trans
 
 ## Proyectos Destacados
 
-Una forma rápida de explorar el portfolio para quien disponga de poco tiempo: los cinco proyectos que mejor representan la variedad de habilidades: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
+Una forma rápida de explorar el portfolio para quien disponga de poco tiempo: cinco proyectos que mejor representan la variedad técnica: un pipeline automatizado de principio a fin, un sistema de recomendación comparativo, un stack completo de MLOps en producción, un análisis de negocio en SQL puro y un proyecto de PLN que combina clasificación con recuperación.
 
 ### Generador Automatizado de Reportes de Noticias
 Extracción de datos (*scraping*), orquestación, resumen mediante LLM local y despliegue autoalojado, verificado paso a paso frente al servicio real en lugar de limitarse a su documentación.
