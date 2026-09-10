@@ -10,9 +10,9 @@
 
 ## About Me
 
-Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI), handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now transitioning into industry roles in data science and data analysis.
+Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI), handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now seeking opportunities in the technology industry.
 
-I enjoy the full pipeline: understanding the business problem, cleaning and transforming messy data, exploring it with the right questions, building models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
+I enjoy the full pipeline: understanding the core problem, cleaning and transforming complex inputs, building robust software and models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
 
 **Languages:** Spanish (native) · English (B2)
 
@@ -21,6 +21,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
 [![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/alejandro-belda-fernandez.mpt)
 [![InfoJobs](https://img.shields.io/badge/InfoJobs-16853B?style=for-the-badge&logo=infojobs&logoColor=white)](https://www.infojobs.net/)
+
 ---
 
 ## Contents
@@ -34,7 +35,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 ## Skills
 
-### Machine Learning
+### Development & Modeling
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
@@ -61,7 +62,7 @@ I enjoy the full pipeline: understanding the business problem, cleaning and tran
 
 ## Top Projects
 
-A quick way into the portfolio for anyone short on time — the five that best represent range: an end-to-end automated pipeline, a comparative recommender system, a full production MLOps stack, a pure-SQL business analysis, and NLP combining classification with retrieval.
+A quick way into the portfolio for anyone short on time — five projects that best represent technical range: an end-to-end automated pipeline, a comparative recommender system, a full production MLOps stack, a pure-SQL business analysis, and NLP combining classification with retrieval.
 
 ### Automated News Report Generator
 Scraping, orchestration, local LLM summarization and self-hosted deployment, verified against the real service at every step rather than its documentation.
