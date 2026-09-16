@@ -10,7 +10,7 @@
 
 ## About Me
 
-Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI), handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now seeking opportunities in the technology industry.
+Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI) at Faculty of Computer Science in University of Murcia, handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now seeking opportunities in the technology industry.
 
 I enjoy the full pipeline: understanding the core problem, cleaning and transforming complex inputs, building robust software and models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
 
