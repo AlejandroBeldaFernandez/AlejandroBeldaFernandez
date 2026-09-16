@@ -10,7 +10,7 @@
 
 ## Sobre mí
 
-Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente busco activamente oportunidades en la industria tecnológica.
+Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) en la Facultad de Informatica en la Universidad de Murcia, gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente busco activamente oportunidades en la industria tecnológica.
 
 Disfruto del pipeline completo: entender el problema raíz, limpiar y transformar entradas complejas, construir software y modelos sólidos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
 
