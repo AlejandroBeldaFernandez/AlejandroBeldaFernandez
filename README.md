@@ -10,9 +10,8 @@
 
 ## About Me
 
-Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI) at the Faculty of Computer Science (UMU), leading data processing, predictive modeling, open-source software development, and Linux server infrastructure management. This gave me a strong foundation in data quality, methodological rigor, and working with complex real-world datasets. I am now seeking opportunities in the technology industry.
 
-I enjoy the full pipeline: understanding the core problem, cleaning and transforming complex inputs, building robust software and models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
+Computer Engineer with a Master's degree in Artificial Intelligence from the University of Murcia. Experienced as a researcher (PDI) at the Faculty of Computer Science (UMU), carrying out the processing of complex data, predictive model development, and Linux infrastructure management. Proficient across the entire data lifecycle: processing, modeling, automation, and clear communication of insights to stakeholders. Actively seeking software development and data roles in the tech industry.
 
 **Languages:** Spanish (native) · English (B2)
 
