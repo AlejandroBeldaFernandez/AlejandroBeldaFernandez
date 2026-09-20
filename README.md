@@ -10,7 +10,7 @@
 
 ## About Me
 
-Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI) at Faculty of Computer Science in University of Murcia, handling complex biological datasets, managing Linux server infrastructure, and collaborating in academic research environments. This gave me a strong foundation in data quality, methodological rigour, and working with noisy real-world data. I am now seeking opportunities in the technology industry.
+Computer Science graduate from the University of Murcia with a Master's degree in Artificial Intelligence. I spent one year working as a researcher (PDI) at the Faculty of Computer Science (UMU), leading data processing, predictive modeling, open-source software development, and Linux server infrastructure management. This gave me a strong foundation in data quality, methodological rigor, and working with complex real-world datasets. I am now seeking opportunities in the technology industry.
 
 I enjoy the full pipeline: understanding the core problem, cleaning and transforming complex inputs, building robust software and models that actually work in context, and communicating results clearly. I care about honest evaluation, documented decisions, and conclusions that non-technical stakeholders can act on.
 
@@ -19,8 +19,7 @@ I enjoy the full pipeline: understanding the core problem, cleaning and transfor
 **Contact:** alejandrobeldafernandez@gmail.com
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
-[![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/alejandro-belda-fernandez.mpt)
-[![InfoJobs](https://img.shields.io/badge/InfoJobs-16853B?style=for-the-badge&logo=infojobs&logoColor=white)](https://www.infojobs.net/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez)
 
 ---
 
@@ -98,7 +97,7 @@ Sentiment classification and a RAG system on the same corpus, with a formal A/B 
 ## Open Source
 
 ### calm-data-generator
-Python library for synthetic tabular data generation, developed during my time as a researcher and published independently on PyPI. It wraps several generation backends (including synthcity) behind a single unified interface, adds a concept drift simulation layer for testing how downstream models degrade under distribution shift, and produces an automated data quality report for every generated dataset — distribution comparisons against the source data, correlation preservation, and basic privacy risk indicators.
+Python library for data manipulation, synthetic tabular data generation, and quality analysis, developed during my time as a researcher and published independently on PyPI. It wraps several generation backends (including synthcity) behind a single unified interface, adds a concept drift simulation layer for testing how downstream models degrade under distribution shift, and produces an automated data quality report for every generated dataset — distribution comparisons against the source data, correlation preservation, and basic privacy risk indicators.
 
 Built to solve a real problem in the research group: generating realistic tabular data for development and testing without exposing sensitive source data, while still being able to simulate the kind of drift that production models actually face over time.
 
