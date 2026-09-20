@@ -10,9 +10,7 @@
 
 ## Sobre mí
 
-Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) en la Facultad de Informática de la Universidad de Murcia (UMU), liderando el procesamiento de datos, el desarrollo de modelos predictivos, el desarrollo de software libre y la gestión de infraestructura de servidores Linux. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con conjuntos de datos complejos del mundo real. Actualmente busco activamente oportunidades en la industria tecnológica.
-
-Disfruto del pipeline completo: entender el problema raíz, limpiar y transformar entradas complejas, construir software y modelos sólidos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
+Ingeniero Informático con Máster en Inteligencia Artificial por la Universidad de Murcia. Experiencia como investigador (PDI) en la Facultad de Informática de la UMU, llevando a cabo el procesamiento de datos complejos, el desarrollo de modelos predictivos y la administración de infraestructura Linux. Competente en todo el ciclo de vida de los datos: procesamiento, modelado, automatización y comunicación clara de resultados a negocio. Buscando activamente roles de desarrollo y datos en la industria tecnológica.
 
 **Idiomas:** Español (nativo) · Inglés (B2)
 
