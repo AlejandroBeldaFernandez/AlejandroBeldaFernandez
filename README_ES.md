@@ -4,13 +4,13 @@
 
 > [Web](https://alejandrobeldafernandez.github.io/index-es.html)
 
-> [CV](https://alejandrobeldafernandez.github.io/CV.pdf)  
+> [CV](https://alejandrobeldafernandez.github.io/CV.pdf) 
 
 ---
 
 ## Sobre mí
 
-Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) en la Facultad de Informatica en la Universidad de Murcia, gestionando datasets biológicos complejos, administrando infraestructura de servidores Linux y colaborando en entornos de investigación académica. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con datos reales y ruidosos. Actualmente busco activamente oportunidades en la industria tecnológica.
+Graduado en Ingeniería Informática por la Universidad de Murcia con Máster en Inteligencia Artificial. Durante un año trabajé como investigador (PDI) en la Facultad de Informática de la Universidad de Murcia (UMU), liderando el procesamiento de datos, el desarrollo de modelos predictivos, el desarrollo de software libre y la gestión de infraestructura de servidores Linux. Esta experiencia me dio una base sólida en calidad del dato, rigor metodológico y trabajo con conjuntos de datos complejos del mundo real. Actualmente busco activamente oportunidades en la industria tecnológica.
 
 Disfruto del pipeline completo: entender el problema raíz, limpiar y transformar entradas complejas, construir software y modelos sólidos que funcionen en contexto y comunicar los resultados con claridad. Me importa la evaluación honesta, las decisiones documentadas y las conclusiones que los perfiles no técnicos puedan llevar a la práctica.
 
@@ -19,8 +19,7 @@ Disfruto del pipeline completo: entender el problema raíz, limpiar y transforma
 **Email:** alejandrobeldafernandez@gmail.com 
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alejandro-belda-fern%C3%A1ndez-0677903b0/)
-[![Tecnoempleo](https://img.shields.io/badge/Tecnoempleo-004B87?style=for-the-badge&logo=appveyor&logoColor=white)](https://www.tecnoempleo.com/alejandro-belda-fernandez.mpt)
-[![InfoJobs](https://img.shields.io/badge/InfoJobs-16853B?style=for-the-badge&logo=infojobs&logoColor=white)](https://www.infojobs.net/)
+[![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AlejandroBeldaFernandez)
 
 ---
 
@@ -98,7 +97,7 @@ Clasificación de sentimiento y un sistema RAG sobre el mismo corpus, con una co
 ## Código Abierto
 
 ### calm-data-generator
-Librería de Python para la generación de datos tabulares sintéticos, desarrollada durante mi etapa como investigador y publicada de forma independiente en PyPI. Envuelve varios motores de generación (incluido synthcity) bajo una única interfaz unificada, añade una capa de simulación de deriva de concepto (*concept drift*) para evaluar cómo se degradan los modelos secundarios bajo cambios de distribución, y genera un informe automatizado de calidad de datos para cada conjunto generado: comparaciones de distribución respecto a los datos de origen, preservación de correlaciones e indicadores básicos de riesgo de privacidad.
+Librería de Python para la manipulación, generación de datos tabulares sintéticos y análisis de calidad, desarrollada durante mi etapa como investigador y publicada de forma independiente en PyPI. Envuelve varios motores de generación (incluido synthcity) bajo una única interfaz unificada, añade una capa de simulación de deriva de concepto (*concept drift*) para evaluar cómo se degradan los modelos secundarios bajo cambios de distribución, y genera un informe automatizado de calidad de datos para cada conjunto generado: comparaciones de distribución respecto a los datos de origen, preservación de correlaciones e indicadores básicos de riesgo de privacidad.
 
 Creada para resolver un problema real dentro del grupo de investigación: generar datos tabulares realistas para desarrollo y pruebas sin exponer datos de origen confidenciales, permitiendo al mismo tiempo simular el tipo de desvío que sufren los modelos en producción a lo largo del tiempo.
 
