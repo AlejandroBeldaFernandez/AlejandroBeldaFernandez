@@ -108,6 +108,14 @@ Built to solve a real problem in the research group: generating realistic tabula
 
 ---
 
+# AIKE Research Group Website
+
+Design, creation, and maintenance of the official web platform for the AIKE research group (Artificial Intelligence and Knowledge Engineering) at the Faculty of Computer Science, University of Murcia (UMU). Built and structured to present the group's scientific contributions, team members, publications, and active research projects with a clean, responsive layout.
+
+Developed during my period as a researcher (PDI) at UMU to establish a modern digital hub for the team and improve the visibility of the group's academic and industrial initiatives.
+
+https://www.um.es/web/aike/
+
 ## Full Project List
 
 ### 01 — Madrid Traffic Accident Injury Prediction
