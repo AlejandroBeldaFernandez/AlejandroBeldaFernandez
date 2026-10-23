@@ -10,7 +10,10 @@
 
 ## Sobre mí
 
-Ingeniero Informático con Máster en Inteligencia Artificial por la Universidad de Murcia. Experiencia como investigador (PDI) en la Facultad de Informática de la UMU, llevando a cabo el procesamiento de datos complejos, el desarrollo de modelos predictivos y la administración de infraestructura Linux. Competente en todo el ciclo de vida de los datos: procesamiento, modelado, automatización y comunicación clara de resultados a negocio. Buscando activamente roles de desarrollo y datos en la industria tecnológica.
+Ingeniero Informático con Máster en Inteligencia Artificial por la Universidad de Murcia. Experiencia como investi-
+gador (PDI) en la Facultad de Informática de la UMU en desarrollo de software, gestión e infraestructura de servidores
+Linux. Combinando una sólida base de ingeniería con capacidad para resolver problemas complejos y desarrollo de
+software. Buscando activamente posiciones de desarrollo de software donde aportar mi perfil técnico y versatilidad.
 
 **Idiomas:** Español (nativo) · Inglés (B2)
 
@@ -103,6 +106,17 @@ Creada para resolver un problema real dentro del grupo de investigación: genera
 [![PyPI version](https://img.shields.io/pypi/v/calm-data-generator.svg)](https://pypi.org/project/calm-data-generator/)
 
 ---
+
+# Sitio Web del Grupo de Investigación AIKE
+
+Diseño, creación y mantenimiento de la plataforma web oficial para el grupo de investigación AIKE (Artificial Intelligence and Knowledge Engineering) en la Facultad de Informática de la Universidad de Murcia (UMU). Estructurada para presentar las contribuciones científicas del grupo, los miembros del equipo, sus publicaciones y los proyectos de investigación activos con un diseño limpio y adaptable.
+
+Desarrollada durante mi etapa como investigador (PDI) en la UMU para establecer un espacio digital moderno para el equipo y mejorar la visibilidad de sus iniciativas académicas e industriales.
+
+https://www.um.es/web/aike/
+
+---
+
 
 ## Listado Completo de Proyectos
 
