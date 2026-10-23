@@ -11,7 +11,10 @@
 ## About Me
 
 
-Computer Engineer with a Master's degree in Artificial Intelligence from the University of Murcia. Experienced as a researcher (PDI) at the Faculty of Computer Science (UMU), carrying out the processing of complex data, predictive model development, and Linux infrastructure management. Proficient across the entire data lifecycle: processing, modeling, automation, and clear communication of insights to stakeholders. Actively seeking software development and data roles in the tech industry.
+Software Engineer with a Master’s degree in Artificial Intelligence from the University of Murcia. Experienced as
+a Research Assistant (PDI) at UMU’s Faculty of Computer Science in software development, management, and Linux
+server infrastructure. Combining a strong engineering foundation with problem-solving skills and software development.
+Actively seeking software development positions to leverage my technical expertise and versatility.
 
 **Languages:** Spanish (native) · English (B2)
 
