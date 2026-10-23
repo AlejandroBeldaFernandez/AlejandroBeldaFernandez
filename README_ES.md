@@ -102,7 +102,7 @@ Creada para resolver un problema real dentro del grupo de investigación: genera
 
 ---
 
-# Sitio Web del Grupo de Investigación AIKE
+## Sitio Web del Grupo de Investigación AIKE
 
 Diseño, creación y mantenimiento de la plataforma web oficial para el grupo de investigación AIKE (Artificial Intelligence and Knowledge Engineering) en la Facultad de Informática de la Universidad de Murcia (UMU). Estructurada para presentar las contribuciones científicas del grupo, los miembros del equipo, sus publicaciones y los proyectos de investigación activos con un diseño limpio y adaptable.
 
